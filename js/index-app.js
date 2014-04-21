@@ -7,40 +7,30 @@ $(function() {
     $("#next-btn").click(function(e) {
         e.preventDefault();
         if (!isTransitioning) {
-            next();
+            changeScreen(0);
         }
     });
 
     $("#prev-btn").click(function(e) {
         e.preventDefault();
         if (!isTransitioning) {
-            prev();
+            changeScreen(1);
         }
     });
 
-    function next() {
+    function changeScreen(dir) {
         isTransitioning = true;
 
-        if (screenIndex === numScreens) {
-            screenIndex = 1;
-        } else {
-            screenIndex++;
-        }
-
-        $("#wrapper").transit(
-            {'top':'-'+(100*(screenIndex-1))+'%'},
-            transitionDur,
-            onTransitionComplete);
-    }
-
-    function prev() {
-        isTransitioning = true;
-
-        if (screenIndex === 1) {
-            screenIndex = numScreens;
-        } else {
-            screenIndex--;
-        }
+        if (dir === 0)
+            if (screenIndex === numScreens)
+                screenIndex = 1;
+            else
+                screenIndex++;
+        else if (dir === 1)
+            if (screenIndex === 1)
+                screenIndex = numScreens;
+            else
+                screenIndex--;
 
         $("#wrapper").transit(
             {'top':'-'+(100*(screenIndex-1))+'%'},
