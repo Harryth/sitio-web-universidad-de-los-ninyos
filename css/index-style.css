@@ -1,0 +1,30 @@
+.slide-btn {
+    background: #000;
+    border-radius: 40px;
+    opacity: .4;
+    cursor: pointer;
+}
+
+.slide-btn:hover {
+    opacity: .6;
+}
+
+.icon {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #FFF;
+    text-decoration: none;
+}
+
+#next-btn .icon {
+    border-bottom: solid 2px #FFF;
+    border-right: solid 2px #FFF;
+}
+
+#prev-btn .icon {
+    border-top: solid 2px #FFF;
+    border-left: solid 2px #FFF;
+}
