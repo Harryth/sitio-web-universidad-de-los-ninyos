@@ -7,7 +7,7 @@ $(function() {
     $("#next-btn").click(function(e) {
         e.preventDefault();
         if (!isTransitioning) {
-            changeScreen(0);
+            changeScreen(-1);
         }
     });
 
@@ -21,7 +21,7 @@ $(function() {
     function changeScreen(dir) {
         isTransitioning = true;
 
-        if (dir === 0)
+        if (dir === -1)
             if (screenIndex === numScreens)
                 screenIndex = 1;
             else
@@ -41,4 +41,12 @@ $(function() {
     function onTransitionComplete() {
         isTransitioning = false;
     }
+
+    $(window).mousewheel(function(event,delta) {
+        event.stopPropagation();
+        event.preventDefault();
+
+        if (!isTransitioning)
+            changeScreen(delta);
+    });
 });
