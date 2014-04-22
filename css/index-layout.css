@@ -121,18 +121,22 @@ nav li a {
     padding: 14px;
 }
 
-ul.submenu a {
+.submenu a {
     display: inline;
+    padding: 3px;
 }
 
-ul.submenu li {
+.submenu li {
     display: list-item;
     clear: both;
     height: auto;
     width: auto;
-    margin: 10px auto;
+    margin: 10px 20px;
 }
 
-ul.submenu ul {
-    margin-left: 20px;
+.submenu {
+    display: none;
+    width: 170px;
+    height: 220px;
+    margin-top: 1px;
 }
