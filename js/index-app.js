@@ -32,6 +32,11 @@ $(function() {
             else
                 screenIndex--;
 
+        if (screenIndex === 1)
+            $("nav").transit({'top':'-52px'},transitionDur,function(){});
+        else
+            $("nav").transit({'top':'0'},transitionDur,function(){});
+
         $("#wrapper").transit(
             {'top':'-'+(100*(screenIndex-1))+'%'},
             transitionDur,

@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 .slide-btn {
     background: #000;
     border-radius: 40px;
@@ -27,4 +29,37 @@
 #prev-btn .icon {
     border-top: solid 2px #FFF;
     border-left: solid 2px #FFF;
+}
+
+nav {
+    background-color: #FFF;
+    border-bottom: 2px solid #73c4d8;
+}
+
+nav ul, nav li, nav a {
+    border: none;
+    outline: none;
+}
+
+nav li a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #333;
+}
+
+nav a.students:hover {
+    border-bottom: 3px solid #73c4d8;
+}
+
+nav a.teachers:hover {
+    border-bottom: 3px solid #006500;
+}
+
+nav a.develop:hover {
+    border-bottom: 3px solid #333;
+}
+
+nav a.about:hover {
+    border-bottom: 3px solid #e30f0f;
 }
