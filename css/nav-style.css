@@ -1,0 +1,90 @@
+nav {
+    background-color: #FFF;
+}
+
+nav ul, nav li, nav a {
+    border: none;
+    outline: none;
+}
+
+nav li a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #333;
+}
+
+nav .home > a:hover {
+    border-bottom: 4px solid #ff0;
+}
+
+nav .about > a:hover {
+    border-bottom: 4px solid #da251d;
+}
+
+nav .submenu {
+    background: #fff;
+    border: 2px solid #aaa;
+    border-bottom: 0;
+    border-top: 4px solid #fff;
+}
+
+nav .students .submenu {
+    border-left: 0;
+}
+
+nav .developers .submenu {
+    border-right: 0;
+}
+
+nav .students:hover .submenu {
+    border-top: 4px solid #1f92e5;
+}
+
+nav .teachers:hover .submenu {
+    border-top: 4px solid #009638;
+}
+
+nav .developers:hover .submenu {
+    border-top: 4px solid #666;
+}
+
+nav .submenu a {
+    border-bottom: 2px solid #fff;
+}
+
+nav .students .submenu a {
+    border-left: 1px solid #1f92e5;
+}
+
+nav .students .submenu ul a {
+    border-left: 4px double #1f92e5;
+}
+
+nav .students .submenu a:hover {
+    border-bottom: 2px solid #1f92e5;
+}
+
+nav .teachers .submenu a:hover {
+    border-bottom: 2px solid #009638;
+}
+
+nav .teachers .submenu a {
+    border-left: 1px solid #009638;
+}
+
+nav .teachers .submenu ul a {
+    border-left: 4px double #009638;
+}
+
+nav .developers .submenu a:hover {
+    border-bottom: 2px solid #666;
+}
+
+nav .developers .submenu a {
+    border-left: 1px solid #666;
+}
+
+nav .developers .submenu ul a {
+    border-left: 4px double #666;
+}
