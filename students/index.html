@@ -9,7 +9,6 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-        <script src="../js/jquery.transit.min.js"></script>
         <script src="../js/nav-app.js"></script>
 
         <title>Estudiantes</title>
@@ -21,7 +20,49 @@
             <a href="http://www.unal.edu.co" target="_blank" id="escudoUN"><img src="../images/escudoUN.png" alt="escudo UN" /></a>
         </header>
 
-        <nav>
+        <nav id="top">
+            <ul>
+                <li class="home"><a href="/">Inicio</a></li>
+                <li class="menu students"><a href="#">Estudiantes</a>
+                    <ul class="submenu">
+                        <li><a href="#">Descripci&#243;n</a>
+                            <ul>
+                                <li><a href="#">Sofware</a></li>
+                                <li><a href="#">Hardware</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Actividades</a></li>
+                        <li><a href="#">Recursos</a></li>
+                    </ul>
+                </li>
+                <li class="menu teachers"><a href="#">Profesores</a>
+                    <ul class="submenu">
+                        <li><a href="#">Descripci&#243;n</a>
+                            <ul>
+                                <li><a href="#">Software</a></li>
+                                <li><a href="#">Hardware</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Gu&#237;as</a></li>
+                        <li><a href="#">Recursos</a></li>
+                    </ul>
+                </li>
+                <li class="menu developers"><a href="#">Desarrolladores</a>
+                    <ul class="submenu">
+                        <li><a href="#">Descripci&#243;n</a>
+                            <ul>
+                                <li><a href="#">Software</a></li>
+                                <li><a href="#">Hardware</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Documentación</a></li>
+                    </ul>
+                </li>
+                <li class="about"><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+
+        <nav id="aside">
             <ul>
                 <li class="home"><a href="/">Inicio</a></li>
                 <li class="menu students"><a href="#">Estudiantes</a>
@@ -64,7 +105,6 @@
         </nav>
 
         <div style="width:20px; height:1000px; background:#000;"></div>
-        <div id="dummy" style="background:#bbb; position:fixed; bottom: 5px; right: 10px; height: 50px; width: 50px;"></div>
 
     </body>
 </html>

@@ -2,11 +2,9 @@ $(function() {
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 120)
-            $("nav").css("top","0");
+            $("nav#top").css("top","0");
         else
-            $("nav").css("top","-52px");
-
-        $("#dummy").text($(this).scrollTop());
+            $("nav#top").css("top","-52px");
     });
 
     $(".menu").mouseenter(function() {
