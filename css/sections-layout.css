@@ -1,0 +1,20 @@
+header {
+    width: 960px;
+    height: 100px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+}
+
+#logoSIE {
+    width: 147px;
+    height: 100px;
+    float: left;
+}
+#escudoUN {
+    width: 236px;
+    height: 100px;
+    float: right;
+}

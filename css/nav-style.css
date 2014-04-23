@@ -1,5 +1,6 @@
 nav {
     background-color: #FFF;
+    transition-duration: 1s;
 }
 
 nav ul, nav li, nav a {
@@ -27,6 +28,7 @@ nav .submenu {
     border: 2px solid #aaa;
     border-bottom: 0;
     border-top: 4px solid #fff;
+    transition-duration: 1s;
 }
 
 nav .students .submenu {
