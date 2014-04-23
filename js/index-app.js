@@ -62,6 +62,4 @@ $(function() {
     $(".menu").mouseleave(function() {
         $(".submenu").css("display","none");
     });
-
-    $
 });
