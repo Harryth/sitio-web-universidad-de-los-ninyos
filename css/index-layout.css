@@ -157,12 +157,12 @@ nav li a {
     padding: 14px;
 }
 
-.submenu a {
+nav .submenu a {
     display: inline;
     padding: 3px;
 }
 
-.submenu li {
+nav .submenu li {
     display: list-item;
     clear: both;
     height: auto;
@@ -170,7 +170,7 @@ nav li a {
     margin: 10px 20px;
 }
 
-.submenu {
+nav .submenu {
     display: none;
     width: 170px;
     height: 220px;
