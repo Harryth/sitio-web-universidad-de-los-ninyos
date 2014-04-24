@@ -1,6 +1,34 @@
 html {
-    background: #1f92e5;
+    background: #1f92e5; /* Old browsers */
+    background: -moz-linear-gradient(top, #1f92e5 0%, #b7d0e2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f92e5), color-stop(100%,#b7d0e2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1f92e5 0%,#b7d0e2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1f92e5 0%,#b7d0e2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1f92e5 0%,#b7d0e2 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1f92e5 0%,#b7d0e2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f92e5', endColorstr='#b7d0e2',GradientType=0 ); /* IE6-9 */
     font-family: 'Open Sans', 'sans-serif';
+}
+
+#breadcrumb {
+    background: #ddd;
+    border-radius: 7px;
+    padding: 0 10px;
+}
+
+#breadcrumb a {
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    color: #393939;
+}
+
+#breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+#breadcrumb a:first-child {
+    font-weight: bold;
 }
 
 nav#aside {
