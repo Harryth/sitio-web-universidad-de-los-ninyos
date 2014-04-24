@@ -1,0 +1,108 @@
+html {
+    background: #1f92e5;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+nav#aside {
+    background: #fff;
+    transition-duration: 2s;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px
+}
+
+nav#aside > ul > li.home > a {
+    border-left: 3px solid #ff0;
+    border-bottom: 3px solid #fff;
+}
+
+nav#aside > ul > li.home:hover > a {
+    border-bottom: 3px solid #ff0;
+}
+
+nav#aside > ul > li.about > a {
+    border-left: 3px solid #da251d;
+    border-bottom: 3px solid #fff;
+}
+
+nav#aside > ul > li.about:hover > a {
+    border-bottom: 3px solid #da251d;
+}
+nav#aside > ul > li.students > a {
+    border-left: 3px solid #1f92e5;
+    border-bottom: 3px solid #fff;
+}
+
+nav#aside > ul > li.students:hover > a {
+    border-bottom: 3px solid #1f92e5;
+}
+
+nav#aside > ul > li.teachers > a {
+    border-left: 3px solid #009638;
+    border-bottom: 3px solid #fff;
+}
+
+nav#aside > ul > li.teachers:hover > a {
+    border-bottom: 3px solid #009638;
+}
+
+nav#aside > ul > li.developers > a {
+    border-left: 3px solid #666;
+    border-bottom: 3px solid #fff;
+}
+
+nav#aside > ul > li.developers:hover > a {
+    border-bottom: 3px solid #666;
+}
+
+nav#aside .submenu {
+    transition-duration: 1s;
+}
+
+nav#aside a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav#aside li {
+    list-style: none;
+    margin-left: -20px;
+}
+
+nav#aside .students li a {
+    border-left:  2px solid #1f92e5;
+    border-bottom: 1px solid #fff;
+}
+
+nav#aside .students li a:hover {
+    border-bottom: 1px solid #1f92e5;
+}
+
+nav#aside .teachers li a {
+    border-left:  2px solid #009638;
+    border-bottom: 1px solid #fff;
+}
+
+nav#aside .teachers li a:hover {
+    border-bottom: 1px solid #009638;
+}
+
+nav#aside .developers li a {
+    border-left:  2px solid #666;
+    border-bottom: 1px solid #fff;
+}
+
+nav#aside .developers li a:hover {
+    border-bottom: 1px solid #666;
+}
+
+nav#aside .students li li a {
+    border-left:  4px double #1f92e5;
+}
+
+nav#aside .teachers li li a {
+    border-left:  4px double #009638;
+}
+
+nav#aside .developers li li a {
+    border-left:  4px double #666;
+}

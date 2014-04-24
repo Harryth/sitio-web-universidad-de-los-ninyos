@@ -18,3 +18,30 @@ header {
     height: 100px;
     float: right;
 }
+
+nav#aside {
+    display: block;
+    width: 200px;
+    position: absolute;
+    left: 3%;
+    top: 250px;
+}
+
+nav#aside > ul > li > a {
+    width: 160px;
+}
+
+nav#aside .submenu {
+    max-height: 0;
+    overflow: hidden;
+}
+
+nav#aside li:hover .submenu {
+    max-height: 170px;
+}
+
+nav#aside a {
+    display: inline-block;
+    padding: 3px;
+    margin: 2px 0;
+}
