@@ -33,9 +33,9 @@ $(function() {
                 screenIndex--;
 
         if (screenIndex === 1)
-            $("nav#top").transit({'top':'-52px'},transitionDur,function(){});
+            $("nav#top").css("top","-52px");
         else
-            $("nav#top").transit({'top':'0'},transitionDur,function(){});
+            $("nav#top").css("top","0");
 
         $("#wrapper").transit(
             {'top':'-'+(100*(screenIndex-1))+'%'},
