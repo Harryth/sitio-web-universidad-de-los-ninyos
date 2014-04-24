@@ -56,10 +56,10 @@ $(function() {
     });
 
     $(".menu").mouseenter(function() {
-        $(".submenu").css("display","block");
+        $(".submenu").css("height","220px");
     });
 
     $(".menu").mouseleave(function() {
-        $(".submenu").css("display","none");
+        $(".submenu").css("height","0");
     });
 });

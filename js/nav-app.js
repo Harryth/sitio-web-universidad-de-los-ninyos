@@ -7,11 +7,11 @@ $(function() {
             $("nav#top").css("top","-52px");
     });
 
-    $(".menu").mouseenter(function() {
-        $(".submenu").css("display","block");
+    $("#top .menu").mouseenter(function() {
+        $("nav#top .submenu").css("height","220px");
     });
 
-    $(".menu").mouseleave(function() {
-        $(".submenu").css("display","none");
+    $("#top .menu").mouseleave(function() {
+        $("nav#top .submenu").css("height","0");
     });
 });

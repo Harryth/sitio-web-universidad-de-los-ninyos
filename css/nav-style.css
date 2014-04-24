@@ -8,6 +8,10 @@ nav#top ul, nav#top li, nav#top a {
     outline: none;
 }
 
+nav#top li {
+    list-style: none;
+}
+
 nav#top li a {
     text-align: center;
     text-decoration: none;
@@ -25,10 +29,17 @@ nav#top .about > a:hover {
 
 nav#top .submenu {
     background: #fff;
-    border: 2px solid #aaa;
     border-bottom: 0;
     border-top: 4px solid #fff;
-    transition-duration: 1s;
+    transition: height 1s;
+}
+
+nav#top > ul:hover > li.teachers .submenu {
+    border-left: 2px solid #aaa;
+}
+
+nav#top > ul:hover > li.developers .submenu {
+    border-left: 2px solid #aaa;
 }
 
 nav#top .students .submenu {
@@ -71,16 +82,16 @@ nav#top .teachers .submenu a:hover {
     border-bottom: 2px solid #009638;
 }
 
+nav#top .developers .submenu a:hover {
+    border-bottom: 2px solid #666;
+}
+
 nav#top .teachers .submenu a {
     border-left: 1px solid #009638;
 }
 
 nav#top .teachers .submenu ul a {
     border-left: 4px double #009638;
-}
-
-nav#top .developers .submenu a:hover {
-    border-bottom: 2px solid #666;
 }
 
 nav#top .developers .submenu a {
