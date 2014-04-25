@@ -56,3 +56,10 @@ nav#aside a {
     padding: 3px;
     margin: 2px 0;
 }
+
+#content {
+    width:63%;
+    height:auto;
+    position:relative;
+    margin: 250px auto;
+}

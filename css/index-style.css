@@ -69,6 +69,18 @@ html {
     color: #000;
 }
 
+.students .content a {
+    color: #0033be;
+}
+
 .teachers .content {
     text-align: left;
+}
+
+.teachers .content a {
+    color: #0f0;
+}
+
+.developers .content a {
+    color: #f4ff00;
 }

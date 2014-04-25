@@ -25,7 +25,7 @@
                 <div class="img" id="img-1"></div>
                 <div id="links">
                     <div class="link">
-                        <img src="images/sphere.png"><a href="">Ir a Estudiantes</a>
+                        <img src="images/sphere.png"><a href="/students/">Ir a Estudiantes</a>
                     </div>
                     <div class="link">
                         <img src="images/sphere.png"><a href="">Ir a Profesores</a>
@@ -40,7 +40,7 @@
                 <div class="content">
                     <h1>Rob&#243;tica Divertida</h1>
                     <p>Divi&#233;rte en grande mientras aprendes del maravilloso mundo de la rob&#243;tica.</p>
-                    <a href="students/index.html">Ir al Portal de Estudiantes</a>
+                    <a href="/students/">Ir al Portal de Estudiantes</a>
                 </div>
             </div>
             <div class="screen teachers">
@@ -60,48 +60,11 @@
                 </div>
             </div>
         </div>
-
-        <nav id="top">
-            <ul>
-                <li class="home"><a href="/">Inicio</a></li>
-                <li class="menu students"><a href="#">Estudiantes</a>
-                    <ul class="submenu">
-                        <li><a href="#">Descripci&#243;n</a>
-                            <ul>
-                                <li><a href="#">Sofware</a></li>
-                                <li><a href="#">Hardware</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Actividades</a></li>
-                        <li><a href="#">Recursos</a></li>
-                    </ul>
-                </li>
-                <li class="menu teachers"><a href="#">Profesores</a>
-                    <ul class="submenu">
-                        <li><a href="#">Descripci&#243;n</a>
-                            <ul>
-                                <li><a href="#">Software</a></li>
-                                <li><a href="#">Hardware</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Gu&#237;as</a></li>
-                        <li><a href="#">Recursos</a></li>
-                    </ul>
-                </li>
-                <li class="menu developers"><a href="#">Desarrolladores</a>
-                    <ul class="submenu">
-                        <li><a href="#">Descripci&#243;n</a>
-                            <ul>
-                                <li><a href="#">Software</a></li>
-                                <li><a href="#">Hardware</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Documentación</a></li>
-                    </ul>
-                </li>
-                <li class="about"><a href="#">Acerca de</a></li>
-            </ul>
-        </nav>
+        
+<?php 
+require_once './php/nav.php';
+nav("top");
+?>
 
         <div id="next-btn" class="slide-btn"><a href="#" class="icon"></a></div>
         <div id="prev-btn" class="slide-btn"><a href="#" class="icon"></a></div>
