@@ -25,7 +25,7 @@
         <div id="breadcrumb"><a href="index.html">Estudiantes</a></div>
 
 <?php
-require_once '../../php/nav.php';
+require_once '../php/nav.php';
 nav("top");
 nav("aside");
 ?>
