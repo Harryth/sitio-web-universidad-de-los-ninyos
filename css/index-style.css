@@ -47,7 +47,7 @@ html {
 .content {
     font-family: 'Josefin Sans', 'sans-serif';
     text-align: right;
-    color: #fff;
+    color: #1a1a1a;
 }
 
 .content h1 {
@@ -65,22 +65,10 @@ html {
     text-align: right;
 }
 
-.students .content {
-    color: #000;
-}
-
-.students .content a {
-    color: #0033be;
+.teachers .content {
+    color: #fff;
 }
 
 .teachers .content {
     text-align: left;
-}
-
-.teachers .content a {
-    color: #0f0;
-}
-
-.developers .content a {
-    color: #f4ff00;
 }
