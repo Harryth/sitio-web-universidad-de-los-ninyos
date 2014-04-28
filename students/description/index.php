@@ -22,7 +22,7 @@
             <a href="http://www.unal.edu.co" target="_blank" id="escudoUN"><img src="../../images/escudoUN.png" alt="escudo UN" /></a>
         </header>
 
-        <div id="breadcrumb"><a href="../index.html">Estudiantes</a> &#62; <a href="index.html">Descripci&#243;n</a></div>
+        <div id="breadcrumb"><a href="../">Estudiantes</a> &#62; <a href="./">Descripci&#243;n</a></div>
 
 <?php
 require_once '../../php/nav.php';
