@@ -5,6 +5,12 @@ function nav ($id) {
     <nav id="$id">
         <ul>
             <li class="home"><a href="/">Inicio</a></li>
+            <li class="menu sie"><a href="/">SIE</a>
+            	<ul class="submenu">
+            		<li><a href="#">Software</a></li>
+            		<li><a href="#">Hardware</a></li>
+               </ul>
+            </li>
             <li class="menu students"><a href="/students/">Estudiantes</a>
                 <ul class="submenu">
                     <li><a href="/students/description/">Descripci&#243;n</a>

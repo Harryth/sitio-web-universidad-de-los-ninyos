@@ -47,6 +47,15 @@ nav#aside > ul > li.home:hover > a {
     border-bottom: 3px solid #ff0;
 }
 
+nav#aside > ul > li.sie > a {
+    border-left: 3px solid #00ff6a;
+    border-bottom: 3px solid #fff;
+}
+
+nav#aside > ul > li.sie:hover > a {
+    border-bottom: 3px solid #00ff6a;
+}
+
 nav#aside > ul > li.about > a {
     border-left: 3px solid #da251d;
     border-bottom: 3px solid #fff;
@@ -94,6 +103,15 @@ nav#aside a {
 nav#aside li {
     list-style: none;
     margin-left: -20px;
+}
+
+nav#aside .sie li a {
+    border-left:  2px solid #00ff6a;
+    border-bottom: 1px solid #fff;
+}
+
+nav#aside .sie li a:hover {
+    border-bottom: 1px solid #00ff6a;
 }
 
 nav#aside .students li a {
