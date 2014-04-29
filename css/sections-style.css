@@ -1,9 +1,13 @@
 html {
-    background: #1f92e5; /* Old browsers */
-    background-image: url("../images/backgroundKids.png");
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+html.students {
+    background: #aed8ff;
+    background-image: url("../images/backgroundContentKids.png");
+    background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Open Sans', 'sans-serif';
 }
 
 #breadcrumb {
