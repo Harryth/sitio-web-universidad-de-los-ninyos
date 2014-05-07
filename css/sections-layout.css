@@ -61,11 +61,15 @@ nav#aside a {
     width:60%;
     position:relative;
     margin: 250px auto;
+    padding: 15px;
+    padding-bottom: 30px;
     z-index: 100;
 }
 
 #content .tab {
 	position: absolute;
+	margin-left: -15px;
+	margin-top: -15px;
 	padding: 15px;
 	padding-bottom: 30px;
 }
@@ -109,4 +113,13 @@ nav#aside a {
 	width: 150px;
 	height: 25px;
 	padding-left: 100px;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+}
+
+footer p {
+	text-align: center;
 }

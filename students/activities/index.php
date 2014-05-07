@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html class="students" lang="es">
 	<head>
+		
+		<title>Estudiantes &gt; Actividades</title>
+		
 		<meta charset="utf-8">
 
 		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<title>index</title>
-		<meta name="description" content="">
-		<meta name="author" content="Harold">
+		<meta name="description" content="Pr&aacute;cticas para estudiantes - Universidad de los Ni&ntilde;os">
+		<meta name="author" content="Harold Vallejo">
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 
@@ -26,6 +28,15 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script src="../../js/nav-app.js"></script>
         <script src="../../js/sections-app.js"></script>
+        
+        <style>
+        	footer {
+        		top: 1200px;
+        	}
+        	#content {
+        		padding: 0;
+        	}
+        </style>
 	</head>
 
 	<body>
@@ -79,6 +90,7 @@ nav("aside");
         		</ul>
         		<h3>Informaci&oacute;n Adicional</h3>
         		<p>Antes de iniciar la pr&aacute;ctica es importatante consultar el funcionamiento de un mult&iacute;metro, un osciloscopio, un generador de señales y la protoboard, también el manejo del <a href="http://www.digikey.com/us/es/mkt/calculators/4-band-resistors.html">c&oacute;digo de colores</a> de las resistencias.</p>
+        		
         	</div>
         	<div class="tab" id="practice-2">
         		<h1>Electr&oacute;nica y L&oacute;gica</h1>
@@ -106,5 +118,8 @@ nav("aside");
         		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
         	</div>
         </div>
+<?php
+require_once '../../php/footer.php';
+?>
 	</body>
 </html>
