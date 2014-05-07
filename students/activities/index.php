@@ -53,7 +53,32 @@ nav("aside");
         	<div class="tab" id="practice-1">
         		<h1>Electr&oacute;nica B&aacute;sica</h1>
         		<h2>Pr&aacute;ctica 1</h2>
-        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        		<p>En está práctica trataremos los conceptos de circuitos resistencia-condensador (RC) y se harán mediciones utilizando instrumentos básicos como el multímetro y el osciloscopio.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Mult&iacute;metro</li>
+        			<li>Osciloscopio</li>
+        			<li>Proto-board</li>
+        			<li>Generador de Se&ntilde;ales</li>
+        			<li>Resistencias</li>
+        			<li>Condensadores</li>
+        			<li>Pilas</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran algunos conceptos que pueden ser nuevos, a continuación encontrarás una lista con sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Tensi%C3%B3n_%28electricidad%29" target="_blank">Voltaje</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Corriente_el%C3%A9ctrica" target="_blank">Corriente</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Resistencia_el%C3%A9ctrica" target="_blank">Resistencia</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Condensador_electrol%C3%ADtico" target="_blank">Condensador Electrol&iacute;tico</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Condensador_el%C3%A9ctrico#Tipos_de_diel.C3.A9ctrico_utilizados_en_condensadores" target="_blank">Condensador Cer&aacute;mico</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Mult%C3%ADmetro" target="_blank">Multímetro</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Osciloscopio" target="_blank">Osciloscopio</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Generador_de_se%C3%B1ales" target="_blank">Generador de Señales</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Placa_de_pruebas" target="_blank">Protoboard</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Antes de iniciar la pr&aacute;ctica es importatante consultar el funcionamiento de un mult&iacute;metro, un osciloscopio, un generador de señales y la protoboard, también el manejo del <a href="http://www.digikey.com/us/es/mkt/calculators/4-band-resistors.html">c&oacute;digo de colores</a> de las resistencias.</p>
         	</div>
         	<div class="tab" id="practice-2">
         		<h1>Electr&oacute;nica y L&oacute;gica</h1>
