@@ -191,6 +191,22 @@ nav#aside .developers li li a {
 	background: #fff;
 }
 
+#tabs li:first-child span {
+	border-top-right-radius: 20px;
+}
+
+#tabs li:first-child:hover a {
+	border-top-right-radius: 20px;
+}
+
+#tabs li:last-child span {
+	border-bottom-right-radius: 20px;
+}
+
+#tabs li:last-child:hover a {
+	border-bottom-right-radius: 20px;
+}
+
 #tabs li:hover a {
 	width: 160px;
 }
