@@ -31,7 +31,7 @@
         
         <style>
         	footer {
-        		top: 1200px;
+        		top: 1500px;
         	}
         	#content {
         		padding: 0;
@@ -90,7 +90,9 @@ nav("aside");
         		</ul>
         		<h3>Informaci&oacute;n Adicional</h3>
         		<p>Antes de iniciar la pr&aacute;ctica es importatante consultar el funcionamiento de un mult&iacute;metro, un osciloscopio, un generador de señales y la protoboard, también el manejo del <a href="http://www.digikey.com/us/es/mkt/calculators/4-band-resistors.html">c&oacute;digo de colores</a> de las resistencias.</p>
-        		
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 1</p>
+        		<a class="doc" href="/docs/PRACTICA-I-ELECTRONICA-BASICA.docx"><img alt="Documento pr&aacute;ctica 1" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica I</span></a>
         	</div>
         	<div class="tab" id="practice-2">
         		<h1>Electr&oacute;nica y L&oacute;gica</h1>
