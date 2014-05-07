@@ -157,3 +157,29 @@ nav#aside .developers li li a {
     background:#fff;
     border-top-right-radius: 70px;
 }
+
+#content p {
+	text-align: justify;
+}
+
+#tabs a {
+	transition-duration: 0.5s;
+}
+
+#tabs.students a {
+	background: #1f92e5;
+	color: #fff;
+}
+
+#tabs li {
+	list-style: none;
+}
+
+#tabs span {
+	text-decoration: none;
+	background: #fff;
+}
+
+#tabs li:hover a {
+	width: 160px;
+}
