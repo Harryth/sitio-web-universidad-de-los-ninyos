@@ -156,14 +156,21 @@ nav#aside .developers li li a {
 #content {
     background:#fff;
     border-top-right-radius: 70px;
+    color: #333;
 }
 
 #content p {
 	text-align: justify;
 }
 
+#content .tab {
+	background: #fff;
+	border-top-right-radius: 70px;
+}
+
 #tabs a {
 	transition-duration: 0.5s;
+	text-decoration: none;
 }
 
 #tabs.students a {

@@ -32,7 +32,7 @@
 <?php
 require_once '../../php/header.php';
 ?>
-		<div id="breadcrumb"><a href="./">Estudiantes</a></div>
+		<div id="breadcrumb"><a href="../">Estudiantes</a> &#62; <a href="./">Actividades</a></div>
 		
 <?php
 require_once '../../php/nav.php';
@@ -45,17 +45,41 @@ nav("aside");
 				<li><span>Pr&aacute;ctica 2</span><a href="#practice-2">Electr&oacute;nica y L&oacute;gica</a></li>
 				<li><span>Pr&aacute;ctica 3</span><a href="#practice-3">Sensores</a></li>
 				<li><span>Pr&aacute;ctica 4</span><a href="#practice-4">Motores</a></li>
-				<li><span>Pr&aacute;ctica 5</span><a href="#practice-5">Conceptos de Mov</a></li>
+				<li><span>Pr&aacute;ctica 5</span><a href="#practice-5">Conceptos de Mov.</a></li>
 				<li><span>Pr&aacute;ctica 6</span><a href="#practice-6">Locomoci&oacute;n</a></li>
 			</ul>
 		</aside>
 		<div id="content">
-        	<h1 style="padding: 30px 30px 10px 30px;">Lorem Ipsum</h1>
-            <p style="padding: 10px 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
-            <p style="padding: 10px 30px;">Donec nisl lectus, aliquam sollicitudin ullamcorper ac, dapibus ac nulla. Sed lacinia blandit ipsum, sed ornare urna volutpat tincidunt. Nullam sagittis erat sit amet velit sodales accumsan. Ut hendrerit dictum eros, sed elementum enim commodo in. Duis pulvinar lobortis dolor. Vivamus sit amet aliquet tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris non hendrerit metus.</p>
-            <p style="padding: 10px 30px;">Phasellus pellentesque euismod turpis quis commodo. Aenean sapien urna, tempor eget augue ac, aliquam aliquam urna. Suspendisse at dictum massa. In tempor dictum tempor. Sed rutrum tempor sapien et vehicula. Morbi in ullamcorper massa. Donec molestie accumsan turpis at varius. Suspendisse ut erat nec ligula dapibus molestie.</p>
-            <p style="padding: 10px 30px;">Etiam quis neque posuere eros pulvinar dictum. Proin sollicitudin est lorem, sed ullamcorper leo hendrerit sit amet. Duis at lacus ante. Fusce eget ornare magna. Donec in lacus id dui consequat imperdiet. Quisque convallis aliquet auctor. Duis hendrerit mauris ut vulputate ultrices. Quisque scelerisque dapibus tempor. Quisque feugiat leo eget metus lobortis, eu auctor nisl tincidunt.</p>
-            <p style="padding: 10px 30px;">Aliquam erat volutpat. Integer tempor nibh metus, at vehicula mi rutrum nec. Donec dapibus non orci ut aliquam. Maecenas faucibus a risus sit amet tempus. Donec consectetur massa nec urna dictum, ut ornare leo porttitor. Integer quis lacinia diam. Phasellus dictum mi erat, non cursus odio malesuada vel. Ut posuere sapien nec enim ultrices lacinia. Nam euismod eros et ligula gravida aliquam. Nullam nec urna ut magna dignissim tristique ut ac leo. Curabitur sit amet risus purus.</p>
+        	<div class="tab" id="practice-1">
+        		<h1>Electr&oacute;nica B&aacute;sica</h1>
+        		<h2>Pr&aacute;ctica 1</h2>
+        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        	</div>
+        	<div class="tab" id="practice-2">
+        		<h1>Electr&oacute;nica y L&oacute;gica</h1>
+        		<h2>Pr&aacute;ctica 2</h2>
+        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        	</div>
+        	<div class="tab" id="practice-3">
+        		<h1>Sensores</h1>
+        		<h2>Pr&aacute;ctica 3</h2>
+        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        	</div>
+        	<div class="tab" id="practice-4">
+        		<h1>Motores</h1>
+        		<h2>Pr&aacute;ctica 4</h2>
+        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        	</div>
+        	<div class="tab" id="practice-5">
+        		<h1>Conceptos de Movimiento</h1>
+        		<h2>Pr&aacute;ctica 5</h2>
+        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        	</div>
+        	<div class="tab" id="practice-6">
+        		<h1>Locomoci&oacute;n</h1>
+        		<h2>Pr&aacute;ctica 6</h2>
+        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        	</div>
         </div>
 	</body>
 </html>
