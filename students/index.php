@@ -17,10 +17,9 @@
     </head>
     <body>
 
-        <header>
-            <a href="/" id="logoSIE"><img src="../images/logoSIE.png" alt="logo SIE" /></a>
-            <a href="http://www.unal.edu.co" target="_blank" id="escudoUN"><img src="../images/escudoUN.png" alt="escudo UN" /></a>
-        </header>
+<?php
+require_once '../php/header.php';
+?>
 
         <div id="breadcrumb"><a href="./">Estudiantes</a></div>
 
