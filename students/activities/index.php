@@ -23,20 +23,13 @@
         <link rel="stylesheet" type="text/css" href="../../css/sections-style.css" />
         <link rel="stylesheet" type="text/css" href="../../css/nav-layout.css" />
         <link rel="stylesheet" type="text/css" href="../../css/nav-style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script src="../../js/nav-app.js"></script>
         <script src="../../js/sections-app.js"></script>
         
-        <style>
-        	footer {
-        		top: 1500px;
-        	}
-        	#content {
-        		padding: 0;
-        	}
-        </style>
 	</head>
 
 	<body>
