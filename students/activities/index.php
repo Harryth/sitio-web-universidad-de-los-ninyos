@@ -166,12 +166,65 @@ nav("aside");
         	<div class="tab" id="practice-4">
         		<h1>Motores</h1>
         		<h2>Pr&aacute;ctica 4</h2>
-        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        		<p>Esta práctica se centra en el entendimiento del funcionamiento de un motor y el control de la velocidad y posición.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Protoboard</li>
+        			<li>Motoreductor con Llanta</li>
+        			<li>Potenci&oacute;metro</li>
+        			<li>Resistencias</li>
+        			<li>Sensor de Distancia</li>
+        			<li>Puente H L293D</li>
+        			<li>Bater&iacute;a</li>
+        			<li>Encoder</li>
+        			<li>Multímetro</li>
+        			<li>Tarjeta de Desarrollo</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Motor" target="_blank">Motor</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Potenci%C3%B3metro" target="_blank">Potenciómetro.</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos">Modulaci&oacute;n por Ancho de Pulso.</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Puente_H_%28electr%C3%B3nica%29">Puente H</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es recomendable consultar informaci&oacute;n sobre lo elementos que se van a usar, el funcionamiento y conexi&oacute;n de motor DC, la conexión de un potenci&oacute;metro y el uso de motores para generaci&oacute;n, además de consultar las hojas de datos de los elementos que se van a usar.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 4.</p>
+        		<a class="doc" href="/docs/MOTORES.docx"><img alt="Documento pr&aacute;ctica 4" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica IV</span></a>
         	</div>
+        	<!--Práctica 5 ------------------------------------------------------------------------------------------------>
         	<div class="tab" id="practice-5">
         		<h1>Conceptos de Movimiento</h1>
         		<h2>Pr&aacute;ctica 5</h2>
-        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        		<p>Esta práctica se centra en el entendimiento del funcionamiento de un motor y el control de la velocidad y posición.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Protoboard</li>
+        			<li>Motoreductor con Llanta</li>
+        			<li>Potenci&oacute;metro</li>
+        			<li>Resistencias</li>
+        			<li>Sensor de Distancia</li>
+        			<li>Puente H L293D</li>
+        			<li>Bater&iacute;a</li>
+        			<li>Encoder</li>
+        			<li>Multímetro</li>
+        			<li>Tarjeta de Desarrollo</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Motor" target="_blank">Motor</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Potenci%C3%B3metro" target="_blank">Potenciómetro.</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos">Modulaci&oacute;n por Ancho de Pulso.</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Puente_H_%28electr%C3%B3nica%29">Puente H</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es recomendable consultar informaci&oacute;n sobre lo elementos que se van a usar, el funcionamiento y conexi&oacute;n de motor DC, la conexión de un potenci&oacute;metro y el uso de motores para generaci&oacute;n, además de consultar las hojas de datos de los elementos que se van a usar.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 4.</p>
+        		<a class="doc" href="/docs/MOTORES.docx"><img alt="Documento pr&aacute;ctica 4" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica IV</span></a>
         	</div>
         	<div class="tab" id="practice-6">
         		<h1>Locomoci&oacute;n</h1>
