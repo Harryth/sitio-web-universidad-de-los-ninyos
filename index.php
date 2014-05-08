@@ -69,6 +69,6 @@ nav("top");
         <div id="next-btn" class="slide-btn"><a href="#" class="icon"></a></div>
         <div id="prev-btn" class="slide-btn"><a href="#" class="icon"></a></div>
 
-        <script src="js/index-app.js"></script>
+        <script src="js/home-app.js"></script>
     </body>
 </html>
