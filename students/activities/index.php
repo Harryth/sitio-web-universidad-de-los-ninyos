@@ -184,8 +184,8 @@ nav("aside");
         		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
         		<ul>
         			<li><a href="http://es.wikipedia.org/wiki/Motor" target="_blank">Motor</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Potenci%C3%B3metro" target="_blank">Potenciómetro.</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos">Modulaci&oacute;n por Ancho de Pulso.</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Potenci%C3%B3metro" target="_blank">Potenciómetro</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos">Modulaci&oacute;n por Ancho de Pulso</a></li>
         			<li><a href="http://es.wikipedia.org/wiki/Puente_H_%28electr%C3%B3nica%29">Puente H</a></li>
         		</ul>
         		<h3>Informaci&oacute;n Adicional</h3>
@@ -198,33 +198,39 @@ nav("aside");
         	<div class="tab" id="practice-5">
         		<h1>Conceptos de Movimiento</h1>
         		<h2>Pr&aacute;ctica 5</h2>
-        		<p>Esta práctica se centra en el entendimiento del funcionamiento de un motor y el control de la velocidad y posición.</p>
+        		<p>En esta pr&aacute;ctica trataremos los conceptos de velocidad, fuerza y aceleración y se buscará determinar la relación entre la distancia recorrida y la rotación de una rueda, experimentando los conceptos de movimiento a trav&eacute;s de la utilizaci&oacute;n de sensores y elementos de electr&oacute;nica.</p>
         		<h3>Materiales</h3>
         		<ul>
-        			<li>Protoboard</li>
-        			<li>Motoreductor con Llanta</li>
-        			<li>Potenci&oacute;metro</li>
-        			<li>Resistencias</li>
-        			<li>Sensor de Distancia</li>
+        			<li>Tubo Artesanal</li>
+        			<li>Esferas de Diferentes Pesos</li>
+        			<li>Cron&oacute;metro</li>
+        			<li>Regla</li>
+        			<li>Transportador</li>
+        			<li>Ruedas de Diferentes Tamaños</li>
+        			<li>Tarjeta de Desarrollo SIE-2</li>
+        			<li>Encoders</li>
         			<li>Puente H L293D</li>
-        			<li>Bater&iacute;a</li>
-        			<li>Encoder</li>
-        			<li>Multímetro</li>
-        			<li>Tarjeta de Desarrollo</li>
+        			<li>Conectores para Tarjeta</li>
+        			<li>Resistencias</li>
+        			<li>Pilas</li>
         		</ul>
         		<h3>Diccionario</h3>
         		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
         		<ul>
-        			<li><a href="http://es.wikipedia.org/wiki/Motor" target="_blank">Motor</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Potenci%C3%B3metro" target="_blank">Potenciómetro.</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos">Modulaci&oacute;n por Ancho de Pulso.</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Puente_H_%28electr%C3%B3nica%29">Puente H</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Per%C3%ADmetro" target="_blank">Per&iacute;metro</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Masa" target="_blank">Masa</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Velocidad">Velocidad</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Aceleraci%C3%B3n">Aceleraci&oacute;n</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Fuerza">Fuerza</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Gravedad">Gravedad</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Leyes_de_Newton">Leyes de newton</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Ca%C3%ADda_libre">Ca&iacute;da Libre</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Movimiento_uniformemente_acelerado">Movimiento Uniformemente Acelerado</a></li>
         		</ul>
-        		<h3>Informaci&oacute;n Adicional</h3>
-        		<p>Es recomendable consultar informaci&oacute;n sobre lo elementos que se van a usar, el funcionamiento y conexi&oacute;n de motor DC, la conexión de un potenci&oacute;metro y el uso de motores para generaci&oacute;n, además de consultar las hojas de datos de los elementos que se van a usar.</p>
+        		<p>Se recomienda visitar la siguiente p&aacute;gina con información sobre el <a href="http://www.profesorenlinea.cl/fisica/Movimiento_rectilineo_acelerado.html">movimiento uniformemente acelerado</a>.</p>
         		<h3>Documentos</h3>
-        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 4.</p>
-        		<a class="doc" href="/docs/MOTORES.docx"><img alt="Documento pr&aacute;ctica 4" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica IV</span></a>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 5.</p>
+        		<a class="doc" href="/docs/CONCEPTOS-DE-MOV.docx"><img alt="Documento pr&aacute;ctica 5" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica V</span></a>
         	</div>
         	<div class="tab" id="practice-6">
         		<h1>Locomoci&oacute;n</h1>
