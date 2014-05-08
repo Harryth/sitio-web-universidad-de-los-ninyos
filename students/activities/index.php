@@ -132,8 +132,37 @@ nav("aside");
         	<div class="tab" id="practice-3">	
         		<h1>Sensores</h1>
         		<h2>Pr&aacute;ctica 3</h2>
-        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        		<p>La siguiente práctica hace enfasis en el aprendizaje de unos de los sistemas de sensores más comunmente utilizados como la medición de la luminosidad, la presencia de un objeto o la posición de un motor.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Protoboard</li>
+        			<li>Tarjeta de Desarrollo SIE-2</li>
+        			<li>Conectores para la Tarjeta</li>
+        			<li>Resistencias</li>
+        			<li>Sensor de Distancia Sharp GP2Y0A41SK0F</li>
+        			<li>LED's</li>
+        			<li>Fotorresistencia</li>
+        			<li>Encoders</li>
+        			<li>Multímetro</li>
+        			<li>Llanta y transportador</li>
+        			<li>Pilas</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Sensor_infrarrojo" target="_blank">Sensor infrarrojo</a></li>
+        			<li>Sharp GP2Y0A41SK0F</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Fotorresistencia" target="_blank">Fotorresistencia o LDR</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Codificador_rotatorio">Encoder</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital">ADC</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es recomendable consultar informaci&oacute;n sobre lo elementos que se van a usar, el funcionamiento y conexi&oacute;n de una fotorresistencia y la forma en que trabaja un encoder, junto a las hojas de datos de los elementos a usar.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 3.</p>
+        		<a class="doc" href="/docs/SENSORES.docx"><img alt="Documento pr&aacute;ctica 3" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica III</span></a>
         	</div>
+        	<!--Práctica 4 ------------------------------------------------------------------------------------------------>
         	<div class="tab" id="practice-4">
         		<h1>Motores</h1>
         		<h2>Pr&aacute;ctica 4</h2>
