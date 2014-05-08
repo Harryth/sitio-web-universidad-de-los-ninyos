@@ -150,6 +150,8 @@ nav("aside");
         		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
         	</div>
         </div>
+        
+        <div id="top-btn"><a href="#"></a></div>
 <?php
 require_once '../../php/footer.php';
 ?>

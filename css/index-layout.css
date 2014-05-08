@@ -121,9 +121,9 @@ header {
 
 .icon {
     display: block;
+    position: relative;
     width: 10px;
     height: 10px;
-    position: relative;
 }
 
 .content {

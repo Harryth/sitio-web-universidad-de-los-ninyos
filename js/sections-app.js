@@ -1,9 +1,13 @@
 $(function() {
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 120)
+        if ($(this).scrollTop() > 120){
             $("nav#aside").css("left","-400px");
-        else
+            $("#top-btn").css("display","block");
+        }
+        else{
             $("nav#aside").css("left","3%");
+            $("#top-btn").css("display","none");
+		}
     });
     
     $("#tabs a").click(function(event) {
@@ -13,5 +17,10 @@ $(function() {
 		  $(this).css("z-index","0");
 		});
 		$(link).css("z-index","10");
+    });
+    
+    $("#top-btn").click(function(event) {
+    	event.preventDefault();
+    	$('html, body').animate({scrollTop:0}, 'slow');
     });
 });

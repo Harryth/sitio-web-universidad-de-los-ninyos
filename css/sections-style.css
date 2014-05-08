@@ -215,6 +215,30 @@ a.doc{
 	color: #333;
 }
 
+#top-btn {
+	background: #000;
+    border-radius: 35px;
+    opacity: .6;
+    cursor: pointer;
+    transition: visibility 1s linear;
+}
+
+#top-btn:hover {
+	opacity: .8;
+}
+
+#top-btn a {
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #FFF;
+    text-decoration: none;
+    border-top: solid 4px #FFF;
+    border-left: solid 4px #FFF;
+}
+
 footer {
 	background: rgba(255,255,255,0.6);
 }
