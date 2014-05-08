@@ -61,6 +61,7 @@ nav("aside");
 			</ul>
 		</aside>
 		<div id="content">
+			<!--Práctica 1 ------------------------------------------------------------------------------------------------>
         	<div class="tab" id="practice-1">
         		<h1>Electr&oacute;nica B&aacute;sica</h1>
         		<h2>Pr&aacute;ctica 1</h2>
@@ -91,15 +92,44 @@ nav("aside");
         		<h3>Informaci&oacute;n Adicional</h3>
         		<p>Antes de iniciar la pr&aacute;ctica es importatante consultar el funcionamiento de un mult&iacute;metro, un osciloscopio, un generador de señales y la protoboard, también el manejo del <a href="http://www.digikey.com/us/es/mkt/calculators/4-band-resistors.html">c&oacute;digo de colores</a> de las resistencias.</p>
         		<h3>Documentos</h3>
-        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 1</p>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 1.</p>
         		<a class="doc" href="/docs/PRACTICA-I-ELECTRONICA-BASICA.docx"><img alt="Documento pr&aacute;ctica 1" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica I</span></a>
         	</div>
+        	<!--Práctica 2 ------------------------------------------------------------------------------------------------>
         	<div class="tab" id="practice-2">
         		<h1>Electr&oacute;nica y L&oacute;gica</h1>
         		<h2>Pr&aacute;ctica 2</h2>
-        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        		<p>Esta pr&aacute;ctica se basa en el aprendizaje de los conceptos b&aacute;sicos de la electr&oacute;nica y la l&oacute;gica digital donde se har&aacute;n jercicios de programaci&oacute;n de funciones l&oacute;gicas con la ayuda de una tarjeta de desarrollo.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Protoboard</li>
+        			<li>Tarjeta de Desarrollo SIE-2</li>
+        			<li>Conectores para la Tarjeta</li>
+        			<li>Resistencias</li>
+        			<li>Compuertas Lógicas <strong>AND</strong> (74LS08) y <strong>OR</strong> (74LS32)</li>
+        			<li>LED's</li>
+        			<li>Switchs Normalmente Abiertos</li>
+        			<li>Pilas</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Puerta_l%C3%B3gica" target="_blank">Compuerta L&oacute;gica</a></li>
+        			<li><a href="http://es.wikibooks.org/wiki/Circuito_integrado_7408" target="_blank">Integrado 74LS08</a></li>
+        			<li>Integrado 74LS32</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Led" target="_blank">LED</a></li>
+        			<li>Tarjeta de desarrollo</li>
+        			<li>Ardublocks</li>
+        		</ul>
+        		<p>Como complemento se puede visitar la siguiente página con informaci&oacute;n sobre las <a href="http://www.virtual.unal.edu.co/cursos/ingenieria/2001771/html/cap07/07_03_01.html" target="_blank">compuertas l&oacute;gicas</a>.</p>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Se recomienda buscar información sobre las hojas de datos de las compuertas lógicas <a href="http://www.ti.com/lit/ds/symlink/sn74ls08.pdf" target="_blank">74LS08</a> y <a href="http://www.ti.com/lit/ds/symlink/sn74ls32.pdf" target="_blank">74LS32</a>, así mismo el funcionamiento y conexión de un LED y la programaci&oacute;n en el programa <a href="http://blog.ardublock.com/" hreflang="en" target="_blank">Ardublocks</a>.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 2.</p>
+        		<a class="doc" href="/docs/PRACTICA-II-ELECTRONICA-Y-LOGICA.docx"><img alt="Documento pr&aacute;ctica 2" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica II</span></a>
         	</div>
-        	<div class="tab" id="practice-3">
+        	<!--Práctica 3 ------------------------------------------------------------------------------------------------>
+        	<div class="tab" id="practice-3">	
         		<h1>Sensores</h1>
         		<h2>Pr&aacute;ctica 3</h2>
         		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
