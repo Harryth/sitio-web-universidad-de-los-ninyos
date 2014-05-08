@@ -2,7 +2,7 @@ $(function() {
     var screenIndex = 1,
         numScreens = $(".screen").length,
         isTransitioning = false,
-        transitionDur = 1000;
+        transitionDur = 800;
 
     $("#next-btn").click(function(e) {
         e.preventDefault();
