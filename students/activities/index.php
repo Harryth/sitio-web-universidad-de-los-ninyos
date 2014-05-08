@@ -23,7 +23,7 @@
         <link rel="stylesheet" type="text/css" href="../../css/sections-style.css" />
         <link rel="stylesheet" type="text/css" href="../../css/nav-layout.css" />
         <link rel="stylesheet" type="text/css" href="../../css/nav-style.css" />
-        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/style-sheet.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
@@ -146,8 +146,8 @@ nav("aside");
         			<li><a href="http://es.wikipedia.org/wiki/Sensor_infrarrojo" target="_blank">Sensor infrarrojo</a></li>
         			<li>Sharp GP2Y0A41SK0F</li>
         			<li><a href="http://es.wikipedia.org/wiki/Fotorresistencia" target="_blank">Fotorresistencia o LDR</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Codificador_rotatorio">Encoder</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital">ADC</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Codificador_rotatorio" target="_blank">Encoder</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital" target="_blank">ADC</a></li>
         		</ul>
         		<h3>Informaci&oacute;n Adicional</h3>
         		<p>Es recomendable consultar informaci&oacute;n sobre lo elementos que se van a usar, el funcionamiento y conexi&oacute;n de una fotorresistencia y la forma en que trabaja un encoder, junto a las hojas de datos de los elementos a usar.</p>
@@ -178,8 +178,8 @@ nav("aside");
         		<ul>
         			<li><a href="http://es.wikipedia.org/wiki/Motor" target="_blank">Motor</a></li>
         			<li><a href="http://es.wikipedia.org/wiki/Potenci%C3%B3metro" target="_blank">Potenciómetro</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos">Modulaci&oacute;n por Ancho de Pulso</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Puente_H_%28electr%C3%B3nica%29">Puente H</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos" target="_blank">Modulaci&oacute;n por Ancho de Pulso</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Puente_H_%28electr%C3%B3nica%29" target="_blank">Puente H</a></li>
         		</ul>
         		<h3>Informaci&oacute;n Adicional</h3>
         		<p>Es recomendable consultar informaci&oacute;n sobre lo elementos que se van a usar, el funcionamiento y conexi&oacute;n de motor DC, la conexión de un potenci&oacute;metro y el uso de motores para generaci&oacute;n, además de consultar las hojas de datos de los elementos que se van a usar.</p>
@@ -212,23 +212,50 @@ nav("aside");
         		<ul>
         			<li><a href="http://es.wikipedia.org/wiki/Per%C3%ADmetro" target="_blank">Per&iacute;metro</a></li>
         			<li><a href="http://es.wikipedia.org/wiki/Masa" target="_blank">Masa</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Velocidad">Velocidad</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Aceleraci%C3%B3n">Aceleraci&oacute;n</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Fuerza">Fuerza</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Gravedad">Gravedad</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Leyes_de_Newton">Leyes de newton</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Ca%C3%ADda_libre">Ca&iacute;da Libre</a></li>
-        			<li><a href="http://es.wikipedia.org/wiki/Movimiento_uniformemente_acelerado">Movimiento Uniformemente Acelerado</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Velocidad" target="_blank">Velocidad</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Aceleraci%C3%B3n" target="_blank">Aceleraci&oacute;n</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Fuerza" target="_blank">Fuerza</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Gravedad" target="_blank">Gravedad</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Leyes_de_Newton" target="_blank">Leyes de newton</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Ca%C3%ADda_libre" target="_blank">Ca&iacute;da Libre</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Movimiento_uniformemente_acelerado" target="_blank">Movimiento Uniformemente Acelerado</a></li>
         		</ul>
         		<p>Se recomienda visitar la siguiente p&aacute;gina con información sobre el <a href="http://www.profesorenlinea.cl/fisica/Movimiento_rectilineo_acelerado.html">movimiento uniformemente acelerado</a>.</p>
         		<h3>Documentos</h3>
         		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 5.</p>
         		<a class="doc" href="/docs/CONCEPTOS-DE-MOV.docx"><img alt="Documento pr&aacute;ctica 5" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica V</span></a>
         	</div>
+        	<!--Práctica 6 ------------------------------------------------------------------------------------------------>
         	<div class="tab" id="practice-6">
         		<h1>Locomoci&oacute;n</h1>
         		<h2>Pr&aacute;ctica 6</h2>
-        		<p>En está práctica trataremos los conceptos de lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vel mi sed varius. Curabitur interdum erat nec nisi porttitor fermentum. Phasellus eu mi mattis, viverra justo in, sagittis orci. Sed nibh purus, tincidunt et mauris nec, vulputate rhoncus mauris. Sed eget venenatis turpis. Duis imperdiet augue vel interdum iaculis. Phasellus at neque a dui pellentesque tristique id et turpis. Nam aliquet mi justo, vitae gravida sem lacinia eget. Morbi sapien odio, mattis at lobortis non, posuere vitae odio. Ut in pretium leo, non posuere ipsum. Duis ac lacinia leo, tempus tempor nibh. Cras placerat, metus id vulputate tempus, magna orci interdum tortor, non dapibus nisi massa quis quam</p>
+        		<p>Esta práctica se centra en la locomoci&oacute;n de un robot m&oacute;vil, la generaci&oacute;n de trayectorias y la simulaci&oacute;n de las mismas en un robot m&oacute;vil en configuraci&oacute;n diferencial.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Ruedas</li>
+        			<li>Final de Carrera o Microswitch</li>
+        			<li>Interruptor</li>
+        			<li>Tarjeta de Desarrollo SIE-2</li>
+        			<li>Encoders</li>
+        			<li>Motores</li>
+        			<li>Conectores para Tarjeta</li>
+        			<li>Pilas</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li>Locomoci&oacute;n</li>
+        			<li>Tracci&oacute;n</li>
+        			<li>Configuraci&oacute;n Diferencial</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Trayectoria" target="_blank">Trayectoria</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Centro_de_gravedad" target="_blank">Centro de Gravedad</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Sensor_final_de_carrera" target="_blank">Final de Carrera</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Se recomienda la lectura de informaci&oacute;n relacionada con la configuraci&oacute;n diferencial, tambi&eacute;n sobre tracci&oacute;n y el funcionamiento de un final de carrera.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 6.</p>
+        		<a class="doc" href="/docs/LOCOMOCION.docx"><img alt="Documento pr&aacute;ctica 6" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica VI</span></a>
         	</div>
         </div>
         
