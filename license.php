@@ -49,8 +49,11 @@ nav("aside");
 ?>
 		<div id="content">
         	<h1>Licencia</h1>
-        	<p>Licencia bajo Creative Commons</p>
-        	<p>Ic&oacute;nos tipo de archivo bajo licencia Creative Commons, modificador del tema original Flattr desarrollado por Uri Herrera, disponible en <a href="http://nitrux.in/" target="_blank">nitrux.in</a></p>
+        	<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</p>
+        	<h2>Contenido de Terceros</h2>
+        	<p>Esta p&aacute;gina cuenta con contenido de terceros, distribuido bajo licencia de uso libre, los detalles se muestran a continuación</p>
+        	<p>Los efectos de transici&oacute;n fueron tomados de la p&aacute;gina <a href="http://tympanus.net/codrops/">codrops</a> que permiten el uso de sus recursos libremente para uso comercial y no comercial sin ning&uacute;n tipo de atribuci&oacute;n.</p>
+        	<p>Los ic&oacute;nos de tipo de archivo est&aacute;n bajo licencia Creative Commons Atribución – No comercial – Compartir igual 4.0 , y fueron modificados del tema original Flattr desarrollado por Uri Herrera, disponible en <a href="http://nitrux.in/" target="_blank">nitrux.in</a>.</p>
         </div>
 <?php
 require_once './php/footer.php';
