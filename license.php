@@ -50,6 +50,7 @@ nav("aside");
 		<div id="content">
         	<h1>Licencia</h1>
         	<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</p>
+        	<p>C&oacute;digo disponible en <a href="https://github.com/Harryth/sitio-web-universidad-de-los-ninyos">Github</a>.</p>
         	<h2>Contenido de Terceros</h2>
         	<p>Esta p&aacute;gina cuenta con contenido de terceros, distribuido bajo licencia de uso libre, los detalles se muestran a continuación</p>
         	<p>Los efectos de transici&oacute;n fueron tomados de la p&aacute;gina <a href="http://tympanus.net/codrops/">codrops</a> que permiten el uso de sus recursos libremente para uso comercial y no comercial sin ning&uacute;n tipo de atribuci&oacute;n.</p>
