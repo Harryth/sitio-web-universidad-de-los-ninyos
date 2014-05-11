@@ -60,7 +60,7 @@ nav("aside");
 			</div>
 			<h2>Descarga</h2>
 			<p>El programa Ardublock puede ser descargado de ls siguiente v&iacute;nculo en formato ZIP comprimido.</p>
-			<a class="doc" href="/docs/UNNinnos.zip"><img alt="Documento pr&aacute;ctica 6" src="/images/tar-icon.png" /><span>Ardublock</span></a>
+			<a class="doc" href="https://dl.dropboxusercontent.com/u/5004468/UNNinnos.zip"><img alt="Documento pr&aacute;ctica 6" src="/images/tar-icon.png" /><span>Ardublock</span></a>
 		</div>
 
 		<div id="top-btn">
