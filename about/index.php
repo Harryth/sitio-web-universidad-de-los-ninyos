@@ -26,6 +26,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script src="../js/nav-app.js"></script>
         <script src="../js/sections-app.js"></script>
+        
 	</head>
 
 	<body>
@@ -66,5 +67,9 @@ nav("aside");
 		</div>
 		
 		<div id="top-btn"><a href="#"></a></div>
+
+<?php
+require_once '../php/footer.php';
+?>
 	</body>
 </html>
