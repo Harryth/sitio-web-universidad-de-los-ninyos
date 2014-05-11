@@ -69,6 +69,16 @@ header {
     float: right;
 }
 
+#screen-1 iframe {
+	position: absolute;
+	top: 170px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 999;
+}
+
 #links {
     width: 960px;
     height: auto;
