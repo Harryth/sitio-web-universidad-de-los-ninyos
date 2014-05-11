@@ -11,11 +11,15 @@ html.students {
 }
 
 html.sie {
-	background-color: #ababab;
+	background-color: #00ff6a;
 }
 
 html.about {
 	background-color: #da251d;
+}
+
+html.nt {
+	background-color: #ababab;
 }
 
 #breadcrumb {
@@ -170,6 +174,11 @@ nav#aside .developers li li a {
 #content p {
 	text-align: justify;
 	margin-left: 13px;
+}
+
+.gallery a img {
+	border: 1px solid #888;
+	padding: 1px;
 }
 
 #content .tab {

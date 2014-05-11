@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="sie" lang="es">
+<html class="nt" lang="es">
 	<head>
 		
 		<title>T&eacute;rminos de Licencia</title>

@@ -78,6 +78,14 @@ nav#aside a {
 	z-index: 10;
 }
 
+.gallery {
+	text-align: center;
+}
+
+.gallery a {
+	margin: 7px;
+}
+
 #tabs {
 	position: absolute;
 	left: 73%;
