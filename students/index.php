@@ -29,7 +29,7 @@ nav("top");
 nav("aside");
 ?>
 
-        <div style="width:63%; height:2000px; background:#fff; position:relative; margin: 250px auto;" id="content"></div>
+        <div id="content"></div>
 
     </body>
 </html>

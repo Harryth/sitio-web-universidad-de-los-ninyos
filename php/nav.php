@@ -46,7 +46,7 @@ function nav ($id) {
                     <li><a href="#">Documentación</a></li>
                 </ul>
             </li>
-            <li class="about"><a href="#">Acerca de</a></li>
+            <li class="about"><a href="/about/">Acerca de</a></li>
         </ul>
     </nav>
 _TEXT;

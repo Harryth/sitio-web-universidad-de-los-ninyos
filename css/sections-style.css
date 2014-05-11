@@ -14,6 +14,10 @@ html.sie {
 	background-color: #ababab;
 }
 
+html.about {
+	background-color: #da251d;
+}
+
 #breadcrumb {
     background: #ddd;
     border-radius: 7px;
@@ -165,6 +169,7 @@ nav#aside .developers li li a {
 
 #content p {
 	text-align: justify;
+	margin-left: 13px;
 }
 
 #content .tab {
