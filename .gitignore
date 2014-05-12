@@ -4,5 +4,6 @@
 .ftpsync_settings
 .project
 .xampp/*
-images/Thumbs.db
+*/Thumbs.db
 docs/UNNinnos.zip
+.bocetos/icons/Thumbs.db
