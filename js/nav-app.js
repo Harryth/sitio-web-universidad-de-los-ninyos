@@ -1,7 +1,7 @@
 $(function() {
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 120)
+        if ($(this).scrollTop() > 250)
             $("nav#top").css("top","0");
         else
             $("nav#top").css("top","-52px");

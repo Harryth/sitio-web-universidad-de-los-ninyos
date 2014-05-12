@@ -1,6 +1,6 @@
 $(function() {
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 120){
+        if ($(this).scrollTop() > 250){
             $("nav#aside").css("left","-400px");
             $("#top-btn").css("display","block");
         }
