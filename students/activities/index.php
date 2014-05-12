@@ -55,6 +55,12 @@ nav("aside");
 			</ul>
 		</aside>
 		<div id="content">
+			
+			<div class="tab">
+				<h1>Actividades</h1>
+				<p>En esta p&aacute;gina encontrar&aacute;s todas las actividades del curso, acompa&ntilde;ada de la informaci&oacute;n m&aacute;s importante que debes tener en cuenta, como: la lista de materiales, t&eacute;rminos nuevos a aprender, informaci&oacute;n adicional y los ducumentos con el desarrollo completo de las pr&aacute;cticas.</p>
+				<p>En el menú de navegación de la derecha encontrarás los cínculos a cada una de las prácticas y podras navegar entre ellas.</p>
+			</div>
 			<!--Práctica 1 ------------------------------------------------------------------------------------------------>
         	<div class="tab" id="practice-1">
         		<h1>Electr&oacute;nica B&aacute;sica</h1>
