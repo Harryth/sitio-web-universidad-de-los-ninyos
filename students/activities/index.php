@@ -2,7 +2,7 @@
 <html class="students" lang="es">
 	<head>
 		
-		<title>Estudiantes &gt; Actividades</title>
+		<title>Estudiantes &gt; Actividades - La Universidad de los Nin&ntilde;os</title>
 		
 		<meta charset="utf-8">
 
@@ -24,6 +24,7 @@
         <link rel="stylesheet" type="text/css" href="../../css/nav-layout.css" />
         <link rel="stylesheet" type="text/css" href="../../css/nav-style.css" />
         <link rel="stylesheet" type="text/css" href="./css/style-sheet.css" />
+        <link rel="stylesheet" type="text/css" href="../css/students.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
