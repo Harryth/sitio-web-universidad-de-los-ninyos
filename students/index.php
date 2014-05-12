@@ -45,8 +45,10 @@ nav("aside");
 ?>
 
         <div id="content">
-        	<h1>La Universidad de los Niños</h1>
-        	<p>En este portal podrás encontrar toda la información, recursos, prácticas, tutoriales y vínculos a otras páginas que serán importantes en el desarrollo de las prácticas y proyectos que tenemos para tí.</p>
+        	<h1>La Universidad de los Ni&ntilde;os</h1>
+        	<p>En este portal podr&aacute;s encontrar toda la informaci&oacute;n, recursos, pr&aacute;cticas, tutoriales y v&iacute;nculos a otras p&aacute;ginas que ser&aacute;n importantes en el desarrollo de las pr&aacute;cticas y proyectos que tenemos para ti.</p>
+        	<p>En la p&aacute;gina <a href="./description/">Descripci&oacute;n</a> encontrar&aacute;s una breve descripci&oacute;n de este proyecto, informaci&oacute;n de todo lo que vas a aprender y porque es importante para ti. También encontrarás información de los elementos más importantes de este proyecto, como el software y el hardware que vas a utilizar y las intrucciones para utilizarlos.</p>
+        	<p>En la p&aacute;gina <a href="./activities/">Actividades</a> están todas las prácticas que desarrollaremos durantel el curso, información importante a tener en cuenta, la lista de materiales y los documentos descargables.</p>
         </div>
         
         <div id="top-btn"><a href="#"></a></div>
