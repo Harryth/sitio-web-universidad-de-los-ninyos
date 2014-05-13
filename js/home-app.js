@@ -62,4 +62,8 @@ $(function() {
     $(".menu").mouseleave(function() {
         $(".submenu").css("height","0");
     });
+	
+	$("#next-btn").hide( "puff", {percent: "300"}, 1000, function () {
+		$("#next-btn").show();
+	} );
 });
