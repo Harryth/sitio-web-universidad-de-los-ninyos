@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../../css/sections-style.css" />
         <link rel="stylesheet" type="text/css" href="../../css/nav-layout.css" />
         <link rel="stylesheet" type="text/css" href="../../css/nav-style.css" />
+        <link rel="stylesheet" type="text/css" href="../css/students.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
