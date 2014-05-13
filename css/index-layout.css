@@ -79,7 +79,7 @@ header {
 }
 
 #links {
-    width: 960px;
+    width: 1280px;
     height: auto;
     position: absolute;
     left: 0;
@@ -116,16 +116,16 @@ header {
 
 .slide-btn {
     position: absolute;
-    bottom: 3%;
+    bottom: 45%;
     padding: 13px;
 }
 
 #next-btn {
-    left: 7%;
+    left: 1%;
 }
 
 #prev-btn {
-    left: 12%;
+    left: 5%;
 }
 
 .icon {

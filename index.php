@@ -25,6 +25,9 @@
                 <div class="img" id="img-1"></div>
                 <iframe width="640" height="360" src="//www.youtube.com/embed/rPjpA4sn7yI?rel=0" frameborder="0" allowfullscreen></iframe>
                 <div id="links">
+                	<div class="link">
+                        <img src="images/sphere.png"><a href="/SIE/">Ir a UN Ni&ntilde;os</a>
+                    </div>
                     <div class="link">
                         <img src="images/sphere.png"><a href="/students/">Ir a Estudiantes</a>
                     </div>
