@@ -20,7 +20,7 @@
         <div id="wrapper">
             <div class="screen" id="screen-1">
                 <header>
-                    <a href="index.html" id="logoSIE"><img src="images/logoSIE.png" alt="logo SIE" /></a>
+                    <a href="/" id="logoSIE"><img src="images/logoSIE.png" alt="logo SIE" /></a>
                     <a href="http://www.unal.edu.co" target="_blank" id="escudoUN"><img src="images/escudoUN.png" alt="escudo UN" /></a>
                 </header>
                 <div class="img" id="img-1"></div>
