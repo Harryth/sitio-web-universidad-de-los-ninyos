@@ -15,7 +15,7 @@ function nav ($id) {
                 <ul class="submenu">
                     <li><a href="/students/description/">Descripci&#243;n</a>
                         <ul>
-                            <li><a href="#">Sofware</a></li>
+                            <li><a href="/students/description/software/">Sofware</a></li>
                             <li><a href="#">Hardware</a></li>
                         </ul>
                     </li>
