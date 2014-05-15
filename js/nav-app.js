@@ -4,7 +4,7 @@ $(function() {
         if ($(this).scrollTop() > 250)
             $("nav#top").css("top","0");
         else
-            $("nav#top").css("top","-52px");
+            $("nav#top").css("top","-60px");
     });
 
     $("#top .menu").mouseenter(function() {
