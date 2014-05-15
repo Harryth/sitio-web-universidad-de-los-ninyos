@@ -59,7 +59,9 @@ nav("aside");
 			<div class="tab">
 				<h1>Ardublock</h1>
 				<p>Ardublock es un programa de computadores que sirve como entorno de desarrollo, permitiendo la programaci&oacute;n de la plataforma rob&oacute;tica SIEBOT. Con este programa podr&aacute;s darle instrucciones al SIEBOT de manera muy sencilla, algo tan simple como arrastrar y soltar un bloque.</p>
-				<p>Ardublock te permitira programar al robot con instrucciones como ir hacía adelante, girar a la izquierda o la dercha, leer la velocidad del SIEBOT, entre otras.</p>
+				<p>Ardublock te permitir&aacute; programar al robot con instrucciones como: ir hacía adelante, girar a la izquierda o la derecha, leer la velocidad del SIEBOT, entre otras.</p>
+				<p>En la pestaña de la derecha encontrarás las instrucciones para tener instalado el programa en tu computador y hacerlo funcionar correctamente.</p>
+				<p>A continuación verás una galería de imágenes del programa.</p>
 				
 				<div class="gallery">
 					<a href="/images/Ardublocks/ardublocks-1.png" rel="prettyPhoto[ardublock]" title="Interfaz Ardublock."><img src="/images/thumbnails/t-ardublocks-1.png" width="120" height="120" alt="Interfaz Ardublock" /></a>
@@ -70,8 +72,15 @@ nav("aside");
 			</div>
 			
 			<div class="tab" id="install">
-				<h1>Istalaci&oacute;n</h1>
+				<h1>Instalaci&oacute;n</h1>
 				<p>Para tener Ardublock instalado y funcionando debes seguir las siguientes instrucciones:</p>
+				<h3>Verificar la Instalaci&oacute;n de Java</h3>
+				<p>Uno de los pasos m&aacute;s importantes es saber si se cuentas con Java instalado en el equipo. Java es una plataforma que permite la ejecuci&oacute;n de muchos programas, as&iacute; que es muy probable que ya est&eacute; instalado en tu equipo. Para verificar que lo tengas instalado has click en el siguiente enlace para <a href="http://www.java.com/es/download/installed.jsp">verificar la instalaci&oacute;n de Java</a>.</p>
+				<p>Si no tienes instalado Java, puedes seguir el siguiente enlace para <a href="http://www.java.com/es/download/">instalar Java</a>.</p>
+				<h3>Instalar el Compilador</h3>
+				<p>El compilador es un programa que nos permite traducir las instrucciones que nosotros demos en Ardublock a unas instrucciones más complejas que el SIEBOT pueda entender. Para instalarlo, sigue estos simples pasos.</p>
+				<p>Lo primero que debes hacer es descargarlo en el siguiente enlace.</p>
+				<a class="doc" href="https://sourcery.mentor.com/GNUToolchain/package12193/public/arm-none-eabi/arm-2013.11-24-arm-none-eabi.exe"><img alt="G++ Lite Edition" src="/images/exe-icon.png" /><span>G++ Lite Edition</span></a>
 			</div>
 		</div>
 
