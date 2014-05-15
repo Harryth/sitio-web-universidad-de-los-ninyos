@@ -80,7 +80,24 @@ nav("aside");
 				<h3>Instalar el Compilador</h3>
 				<p>El compilador es un programa que nos permite traducir las instrucciones que nosotros demos en Ardublock a unas instrucciones más complejas que el SIEBOT pueda entender. Para instalarlo, sigue estos simples pasos.</p>
 				<p>Lo primero que debes hacer es descargarlo en el siguiente enlace.</p>
-				<a class="doc" href="https://sourcery.mentor.com/GNUToolchain/package12193/public/arm-none-eabi/arm-2013.11-24-arm-none-eabi.exe"><img alt="G++ Lite Edition" src="/images/exe-icon.png" /><span>G++ Lite Edition</span></a>
+				<a class="doc" href="https://sourcery.mentor.com/GNUToolchain/package12193/public/arm-none-eabi/arm-2013.11-24-arm-none-eabi.exe"><img alt="G++ Lite Edition" src="/images/exe-icon.png" /><span>Sourcery G++ Lite</span></a>
+				<p>Una vez descagado, ejecuta el archivo e inicia el proceso de instalaci&oacute;n.</p>
+				<p>Aparecer&aacute; una ventana de bienvenida como la siguiente:</p>
+				<div class="gallery">
+					<a href="/images/g++/g++2.jpg" rel="prettyPhoto[g++]" title="Bienvenida instalador G++."><img src="/images/thumbnails/t-g++2.jpg" width="349" height="250" alt="Bienvenida instalador G++" /></a>
+				</div>
+				<p>Da click en siguiente, Lee y Acepta los t&eacute;rminos y condiciones de uso (License Agreement).</p>
+				<p>A continuaci&oacute;n apareceuna pantalla con el resumen de la instalaci&oacute;n, da click en siguiente.</p>
+				<p>En la siguiente pantalla (Choose Install Set) elige la opci&oacute;n t&iacute;pica (Typical) y da click en siguiente.</p>
+				<p>Posteriormente elige la ruta de instalaci&oacute;n, puede ser la sugerida por defecto y de nuevo, da click en siguiente.</p>
+				<p>En la siguiente ventana, a la pregunta si se quiere agregar el producto al PATH (Add product to the PATH) elige la opci&oacute;n de modificar para todos los usuarios (Modify PATH for all users).</p>
+				<div class="gallery">
+					<a href="/images/g++/g++7.jpg" rel="prettyPhoto[g++]" title="Modificar PATH para todos los usuarios."><img src="/images/thumbnails/t-g++7.jpg" width="349" height="250" alt="Modificar PATH para todos los usuarios" /></a>
+				</div>
+				<p>En la siguiente pantalla deja la opci&oacute;n por defecto seleccionada y da click en siguiente</p>
+				<p>Finalmente aparecerá una pantalla con el resumen de la instalaci&oacute;n (Pre-Install Summary), da click en instalar (Install).</p>
+				<p>Despu&eacute;s de esto aparecer&aacute;n una serie de pantallas con el proceso de instalaci&oacute;n. Espera un poco hasta que salga la ventana de aviso que se ha completado la instalaci&oacute;n (Install Complete) y da click en el bot&oacute;n hecho (Done).</p>
+				<h3>Herramientas Adicionales</h3>
 			</div>
 		</div>
 
