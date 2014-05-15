@@ -70,7 +70,7 @@ nav("aside");
 					<a href="/images/Ardublocks/ardublocks-4.png" rel="prettyPhoto[ardublock]" title="Proceso de Compilación."><img src="/images/thumbnails/t-ardublocks-4.png" width="120" height="120" alt="Proceso de Compilación" /></a>
 				</div>
 			</div>
-			
+			<!-- Instalación------------------------------------------------------------------------------------------------>
 			<div class="tab" id="install">
 				<h1>Instalaci&oacute;n</h1>
 				<p>Para tener Ardublock instalado y funcionando debes seguir las siguientes instrucciones:</p>
@@ -98,6 +98,26 @@ nav("aside");
 				<p>Finalmente aparecerá una pantalla con el resumen de la instalaci&oacute;n (Pre-Install Summary), da click en instalar (Install).</p>
 				<p>Despu&eacute;s de esto aparecer&aacute;n una serie de pantallas con el proceso de instalaci&oacute;n. Espera un poco hasta que salga la ventana de aviso que se ha completado la instalaci&oacute;n (Install Complete) y da click en el bot&oacute;n hecho (Done).</p>
 				<h3>Herramientas Adicionales</h3>
+				<p>Es necesario instalar de manera adicional un conjunto de herramientas complementarias que nos ayudar&aacute;n en la programaci&oacute;n, para descargar el instalador podemos dar click en el enlace siguiente:</p>
+				<a class="doc" href="https://csud.googlecode.com/files/yagarto-tools-20121018-setup.exe"><img alt="Yagarto Tools" src="/images/exe-icon.png" /><span>YAGARTO Tools</span></a>
+				<p>Despu&eacute;s de descargado se debe ejecutar el instalador con lo que tendremos una pantalla de bienvenida.</p>
+				<div class="gallery">
+					<a href="/images/yagarto/y1.jpg" rel="prettyPhoto[yagarto]" title="Bienvenida Instalador Yagarto Tools."><img src="/images/thumbnails/t-y1.jpg" width="321" height="250" alt="Bienvenida Instalador Yagarto Tools" /></a>
+				</div>
+				<p>Damos click en el bot&oacute;n siguiente (Next) y pasamos a la ventana de t&eacute;rminos de licencia (License Agreement), los leemos y aceptamos, luego damos click en siguiente (Next).</p>
+				<p>A continuaci&oacute;n aparecer&aacute; una pantalla para elegir los compnentes deseados (Choose Components) donde debemos dejar selecionadas las dos opciones y dar click en siguiente (Next).</p>
+				<div class="gallery">
+					<a href="/images/yagarto/y3.jpg" rel="prettyPhoto[yagarto]" title="Elegir los componentes de Yagarto."><img src="/images/thumbnails/t-y3.jpg" width="321" height="250" alt="Elegir los componentes de Yagarto" /></a>
+				</div>
+				<p>Luego elegimos la ruta de instalaci&oacute;n (Choose Instal Location) que puede ser cualquiera, y damos clock en siguiente.</p>
+				<p>En la ventana siguiente damos click en el bot&oacute;n instalar (Install) para iniciar el proceso de instalaci&oacute;n.</p>
+				<p>Despu&eacute;s de finalizado este proceso (Instalation Complete) damos click en el bot&oacute;n siguiente para luego dar click en el bot&oacute;n finalizar (Finish).</p>
+				<div class="gallery">
+					<a href="/images/yagarto/y7.jpg" rel="prettyPhoto[yagarto]" title="Final Instalaci&oacute;n Yagarto."><img src="/images/thumbnails/t-y7.jpg" width="321" height="250" alt="Final Instalaci&oacute;n Yagarto" /></a>
+				</div>
+				<h2>Descarga Ardublock</h2>
+				<p>Ya finalmente solo debes descargar Ardublock en el siguiente enlace y descoprimir su contenido en la carpeta que prefieras.</p>
+				<a class="doc" href="https://dl.dropboxusercontent.com/u/5004468/UNNinnos.zip"><img alt="Documento pr&aacute;ctica 6" src="/images/tar-icon.png" /><span>Ardublock</span></a>
 			</div>
 		</div>
 
