@@ -63,7 +63,7 @@ $(function() {
         $(".submenu").css("height","0");
     });
 	
-	$("#next-btn").hide( "puff", {percent: "300"}, 1000, function () {
+	$("#next-btn").hide( "puff", {percent: "500"}, 1300, function () {
 		$("#next-btn").show();
 	} );
 });
