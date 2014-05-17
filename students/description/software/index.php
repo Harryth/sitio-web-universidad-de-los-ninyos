@@ -53,6 +53,7 @@ nav("aside");
 		<aside id="tabs" class="students">
 			<ul>
 				<li><span>Instalaci&oacute;n</span><a href="#install">Sigue estos pasos</a></li>
+				<li><span>Como usarlo</span><a href="#usage">Instrucciones</a></li>
 			</ul>
 		</aside>
 		<div id="content">
@@ -118,6 +119,23 @@ nav("aside");
 				<h2>Descarga Ardublock</h2>
 				<p>Ya finalmente solo debes descargar Ardublock en el siguiente enlace y descoprimir su contenido en la carpeta que prefieras.</p>
 				<a class="doc" href="https://dl.dropboxusercontent.com/u/5004468/UNNinnos.zip"><img alt="Documento pr&aacute;ctica 6" src="/images/tar-icon.png" /><span>Ardublock</span></a>
+			</div>
+			<div class="tab" id="usage">
+				<h1>Instrucciones de Uso</h1>
+				<p>Usar Ardublock es muy sencillo y aqu&iacute; te ense&ntilde;aremos como:</p>
+				<p>Primero abre la carpeta donde descomprimiste el programa, normalmente se llama <em>UNNinnos</em> y a continuaci&oacute;n da doble click en el archivo llamdao <em>ardublock-all</em>.</p>
+				<div class="gallery">
+					<a href="/images/Ardublocks/folder.png" rel="prettyPhoto[usage]" title="Ejecutable Ardublock."><img src="/images/thumbnails/t-folder.png" width="339" height="170" alt="Ejecutable Ardublock" /></a>
+				</div>
+				<p>Con esto conseguiremos abrir el programa, cuya interfaz veremos en la imagen siguiente.</p>
+				<div class="gallery">
+					<a href="/images/Ardublocks/ardublocks-1.png" rel="prettyPhoto[usage]" title="Interfaz Ardublock."><img src="/images/thumbnails/t-ardublocks-1-usage.png" width="359" height="250" alt="Interfaz Ardublock" /></a>
+				</div>
+				<p>Los enlaces de colores en la parte izquierda nos permiti&aacute;n navegar por los distintos bloques con los que cuenta el programa y est&aacute;n agrupados seg&uacute;n su funcionalidad.</p>
+				<p>Para hacer nuestro primer programa vamos a dar click en el enlace de color amarillo llamado control y arrastraremos el primer bloque, llamado program que tiene las entradas, setup y loop. Este bloque sirve para hacer la configuraci&oacute;n inicial del programa.</p>
+				<div class="gallery">
+					<a href="/images/Ardublocks/ardublock-usage-1.png" rel="prettyPhoto[usage]" title="Bloques de Control."><img src="/images/thumbnails/t-ardublock-usage-1.png" width="370" height="250" alt="Bloques de Control" /></a>
+				</div>
 			</div>
 		</div>
 
