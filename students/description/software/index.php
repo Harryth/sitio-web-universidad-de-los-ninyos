@@ -132,10 +132,32 @@ nav("aside");
 					<a href="/images/Ardublocks/ardublocks-1.png" rel="prettyPhoto[usage]" title="Interfaz Ardublock."><img src="/images/thumbnails/t-ardublocks-1-usage.png" width="359" height="250" alt="Interfaz Ardublock" /></a>
 				</div>
 				<p>Los enlaces de colores en la parte izquierda nos permiti&aacute;n navegar por los distintos bloques con los que cuenta el programa y est&aacute;n agrupados seg&uacute;n su funcionalidad.</p>
-				<p>Para hacer nuestro primer programa vamos a dar click en el enlace de color amarillo llamado control y arrastraremos el primer bloque, llamado program que tiene las entradas, setup y loop. Este bloque sirve para hacer la configuraci&oacute;n inicial del programa.</p>
+				<p>Para hacer nuestro primer programa vamos a dar click en el enlace de color amarillo llamado <em>control</em> y arrastraremos el primer bloque, llamado <em>program</em> que tiene las entradas, <em>setup</em> y <em>loop</em>. Este bloque sirve para hacer la configuraci&oacute;n inicial del programa. Podemos arrastrar y soltar este bloque en cualquier parte del espacio central de la interfaz.</p>
 				<div class="gallery">
 					<a href="/images/Ardublocks/ardublock-usage-1.png" rel="prettyPhoto[usage]" title="Bloques de Control."><img src="/images/thumbnails/t-ardublock-usage-1.png" width="370" height="250" alt="Bloques de Control" /></a>
 				</div>
+				<p>Despu&eacute;s de esto vamos a arrastrar un bloque <em>if/else</em> y a encajarlo en el espacio enfrente de la palabra <em>loop</em> del bloque <em>program</em>, como vemos en la im&aacute;gen. Este bloque eval&uacute;a una condici&oacute;n, y si se cumple (if) se ejecuta un c&oacute;digo, sino se cumple (else), se ejecuta otro c&oacute;digo. A continuaci&oacute;n veremos como.</p> 
+				<div class="gallery">
+					<a href="/images/Ardublocks/ardublock-usage-2.png" rel="prettyPhoto[usage]" title="Bloque Condicional."><img src="/images/thumbnails/t-ardublock-usage-2.png" width="361" height="250" alt="Bloques Condicional" /></a>
+				</div>
+				<p>Inicialmente vamos a crear la expresi&oacute;n que se va a evaluar, en esta ocasi&oacute;n utilizaremos una funci&oacute;n l&oacute;gica tipo <em>AND</em>, cuya salida es verdadera si y solo si ambas expresiones de entrada son verdaderas. En la pr&aacute;ctica 2 del curso se aprender&aacute; m&aacute;s al respecto.</p>
+				<p>La funci&oacute;n <em>AND</em> la encontramos dando click en el vínculo de color naranja llamado <em>Conditionals</em>. Vamos a arrastrar el bloque llamado <em>AND</em> y a encajarlo frente a la ranura <em>test</em> del bloque <em>if/else</em>.</p>
+				<div class="gallery">
+					<a href="/images/Ardublocks/ardublock-usage-3.png" rel="prettyPhoto[usage]" title="Bloque AND."><img src="/images/thumbnails/t-ardublock-usage-3.png" width="361" height="250" alt="Bloques AND" /></a>
+				</div>
+				<p>Ahora vamos a crear las condiciones a evaluar y a ponerlas en las ranuras del bloque <em>AND</em>. Estas condiciones no son m&aacute;s sino la lectura de pines de entrada en nuestra tarjeta de desarrollo, y para leerlos vamos a utlizar el bloque <em>digital pin</em> en el enlace de color azul llamado <em>Pins</em>. Vamos a arrastrar dos bloques <em>digital pin</em> frente a cada ranura del bloque <em>AND</em> y a elegir los pines 32 y 33 dando click sobre el n&uacute;mero en cada bloque de color rosa y escribiendo los respectivos n&uacute;meros, de tal manera que quede igual que la figura.</p>
+				<div class="gallery">
+					<a href="/images/Ardublocks/ardublock-usage-4.png" rel="prettyPhoto[usage]" title="Expresi&oacute;n a Evaluar."><img src="/images/thumbnails/t-ardublock-usage-4.png" width="361" height="250" alt="Expresi&oacute;n a Evaluar" /></a>
+				</div>
+				<p>Ahora crearemos el c&oacute;digo que se ejecuta cuando los pines 32 y 33 tienen un estado l&oacute;gico <em>verdadero</em>. Para ello iremos al enlace <em>Pins</em> y arrastraremos un bloque <em>set digital pin</em> a la ranura marcada como <em>then</em> (entonces). Siguiendo el mismo procedimiento que el paso anterior seleccionaremos el pin n&uacute;mero 34 y dejaremos el bloque p&uacute;rpura como est&aacute;.</p>
+				<div class="gallery">
+					<a href="/images/Ardublocks/ardublock-usage-5.png" rel="prettyPhoto[usage]" title="Condici&oacute;n Verdadera."><img src="/images/thumbnails/t-ardublock-usage-5.png" width="361" height="250" alt="Condici&oacute;n Verdadera" /></a>
+				</div>
+				<p>Para finalizar, haremos la programaci&oacute;n para el caso en que no se cumpla la condici&oacute;n. Arrastraremos un nuevo bloque <em>set digital pin</em> y elegiremos nuevamente el pin n&uacute;mero 34, pero esta vez el bloque púpura se cambiará a estado <em>LOW</em>, para hacer esto, debemos pasar el puntero por encima del bloque y dar click sobre el peque&ntilde;o tri&aacute;ngulo que se muestra, luego seleccionamos en la lista desplegada. El programa debe quedar como en la imagen.</p>
+				<div class="gallery">
+					<a href="/images/Ardublocks/ardublock-usage-6.png" rel="prettyPhoto[usage]" title="Programa Finalizado."><img src="/images/thumbnails/t-ardublock-usage-6.png" width="361" height="250" alt="Programa Finalizado" /></a>
+				</div>
+				<p>Ya con esto completamos el programa, para finalizar el proceso damos click en en el bot&oacute;n <em>Upload to SIE2</em> para empezar el proceso de compilaci&oacute;n y enviarlo a la plataforma SIE2.</p>
 			</div>
 		</div>
 
