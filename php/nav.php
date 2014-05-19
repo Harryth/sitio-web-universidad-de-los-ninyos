@@ -20,7 +20,7 @@ function nav ($id) {
                         </ul>
                     </li>
                     <li><a href="/students/activities/">Actividades</a></li>
-                    <li><a href="#">Recursos</a></li>
+                    <!--<li><a href="#">Recursos</a></li>-->
                 </ul>
             </li>
             <li class="menu teachers"><a href="#">Profesores</a>
