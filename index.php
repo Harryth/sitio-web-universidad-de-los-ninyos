@@ -33,10 +33,10 @@
                         <img src="images/sphere.png"><a href="/students/">Ir a Estudiantes</a>
                     </div>
                     <div class="link">
-                        <img src="images/sphere.png"><a href="">Ir a Profesores</a>
+                        <img src="images/sphere.png"><a href="/teachers/">Ir a Profesores</a>
                     </div>
                     <div class="link">
-                        <img src="images/sphere.png"><a href="">Ir a Desarrolladores</a>
+                        <img src="images/sphere.png"><a href="/developers/">Ir a Desarrolladores</a>
                     </div>
                 </div>
             </div>
