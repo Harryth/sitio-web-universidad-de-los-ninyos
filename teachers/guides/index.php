@@ -57,7 +57,7 @@ nav("aside");
 		<div id="content">
 			
 			<div class="tab">
-				<h1>Actividades</h1>
+				<h1>Gu&iacute;as</h1>
 				<p>En esta p&aacute;gina encontrar&aacute; todas las gu&iacute;as del curso, acompa&ntilde;ada de la informaci&oacute;n m&aacute;s importante que debe tener en cuenta al momento de ense&ntilde;ar a sus estudiantes, como: la lista de materiales, t&eacute;rminos nuevos a aprender, informaci&oacute;n adicional y los ducumentos con el desarrollo completo de las pr&aacute;cticas.</p>
 				<p>En el men&uacute; de navegación de la derecha encontrar&aacute; los v&iacute;nculos a cada una de las gu&iacute;as y podras navegar entre ellas.</p>
 			</div>
