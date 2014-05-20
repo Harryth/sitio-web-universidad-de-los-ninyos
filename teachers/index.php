@@ -28,7 +28,7 @@
         <script src="../js/nav-app.js"></script>
         <script src="../js/sections-app.js"></script>
 
-        <title>Estudiantes</title>
+        <title>Profesores</title>
     </head>
     <body>
 
@@ -47,6 +47,9 @@ nav("aside");
         <div id="content">
         	<h1>La Universidad de los Ni&ntilde;os</h1>
         	<p>En este portal encontrar&aacute; toda la informaci&oacute;n, pr&aacute;cticas, tutoriales y v&iacute;nculos relacionados al proyecto SIEBOT, ac&aacute; se presentan los recursos necesarios para ayudarle al proceso de ense&ntilde;anza de la rob&oacute;tica m&oacute;vil a sus estudiates.</p>
+        	<p>En la secci&oacute;n <a href="/teachers/description/">Descripci&oacute;n</a> encontrar&aacute; informaci&oacute;n sobre el proyecto, sus beneficios y cualidades, el Hardare y el Software necesario adem&aacute;s de im&aacute;genes e informaci&oacute;n de uso.</p>
+        	<p>En la secci&oacute;n <a href="/teachers/guides/">Gu&iacute;as</a> podr&aacute; acceder a las gu&iacute;as de desarrollo del curso y la informaci&oacute;n necesaria para desarrollarla con sus estudiantes.</p>
+        	<p></p>
         </div>
         
         <div id="top-btn"><a href="#"></a></div>

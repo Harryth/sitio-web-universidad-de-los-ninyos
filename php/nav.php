@@ -25,13 +25,13 @@ function nav ($id) {
             </li>
             <li class="menu teachers"><a href="/teachers/">Profesores</a>
                 <ul class="submenu">
-                    <li><a href="#">Descripci&#243;n</a>
+                    <li><a href="/teachers/description/">Descripci&#243;n</a>
                         <ul>
                             <li><a href="#">Software</a></li>
                             <li><a href="#">Hardware</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Gu&#237;as</a></li>
+                    <li><a href="/teachers/guides/">Gu&#237;as</a></li>
                     <li><a href="#">Recursos</a></li>
                 </ul>
             </li>

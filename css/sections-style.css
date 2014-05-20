@@ -200,6 +200,11 @@ nav#aside .developers li li a {
 	color: #fff;
 }
 
+#tabs.teachers a {
+	background: #009638;
+	color: #fff;
+}
+
 #tabs li {
 	list-style: none;
 }
