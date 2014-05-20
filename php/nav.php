@@ -16,14 +16,14 @@ function nav ($id) {
                     <li><a href="/students/description/">Descripci&#243;n</a>
                         <ul>
                             <li><a href="/students/description/software/">Sofware</a></li>
-                            <li><a href="#">Hardware</a></li>
+                            <li><a href="/students/description/hardware/">Hardware</a></li>
                         </ul>
                     </li>
                     <li><a href="/students/activities/">Actividades</a></li>
                     <!--<li><a href="#">Recursos</a></li>-->
                 </ul>
             </li>
-            <li class="menu teachers"><a href="#">Profesores</a>
+            <li class="menu teachers"><a href="/teachers/">Profesores</a>
                 <ul class="submenu">
                     <li><a href="#">Descripci&#243;n</a>
                         <ul>
