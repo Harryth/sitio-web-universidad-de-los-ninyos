@@ -37,7 +37,7 @@ function nav ($id) {
             </li>
             <li class="menu developers"><a href="/developers/">Desarrolladores</a>
                 <ul class="submenu">
-                    <li><a href="#">Descripci&#243;n</a>
+                    <li><a href="/developers/description/">Descripci&#243;n</a>
                         <ul>
                             <li><a href="#">Software</a></li>
                             <li><a href="#">Hardware</a></li>
