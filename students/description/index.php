@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="students">
+<html class="students" lang="es">
     <head>
         <meta charset="UTF-8">
 
