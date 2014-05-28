@@ -25,4 +25,15 @@ $(function() {
     	event.preventDefault();
     	$('html, body').animate({scrollTop:0}, 'slow');
     });
+    
+    var tag = window.location.hash.substr(1);
+    
+    if (tag != "") {
+    	$("#content .tab").each(function() {
+		  $(this).css("height","0");
+		  $(this).css("padding","0");
+		});
+    	$(".tab#"+tag).css("height","auto");
+    	$(".tab#"+tag).css("padding","15px");
+    }
 });
