@@ -14,9 +14,11 @@ $(function() {
     	event.preventDefault();
     	var link = $(this).attr("href");
     	$("#content .tab").each(function() {
-		  $(this).css("z-index","0");
+		  $(this).css("height","0");
+		  $(this).css("padding","0");
 		});
-		$(link).css("z-index","10");
+		$(link).css("height","auto");
+		$(link).css("padding","15px");
     });
     
     $("#top-btn").click(function(event) {

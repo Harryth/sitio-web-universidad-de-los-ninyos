@@ -1,11 +1,3 @@
-footer {
-	top: 3600px;
-}
-    
-#content {
+ #content {
 	padding: 0;
-}
-
-#content .tab {
-	height: 3213px;
 }
