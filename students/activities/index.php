@@ -53,6 +53,7 @@ nav("aside");
 				<li><span>Pr&aacute;ctica 5</span><a href="#practice-5">Conceptos de Mov.</a></li>
 				<li><span>Pr&aacute;ctica 6</span><a href="#practice-6">Locomoci&oacute;n</a></li>
 				<li><span>Pr&aacute;ctica 7</span><a href="#practice-7">Control Pos. y Vel.</a></li>
+				<li><span>Pr&aacute;ctica 8</span><a href="#practice-8">Trayectorias</a></li>
 			</ul>
 		</aside>
 		<div id="content">
@@ -302,6 +303,42 @@ nav("aside");
         		<a class="doc" href="/docs/Lazo-cerrado-pos.abp"><img alt="Programa Lazo Cerrado Posici&oacute;n" src="/images/ardublock-icon.png" /><span>Programa Lazo Cerrado Posici&oacute;n</span></a>
         		<br />
         		<a class="doc" href="/docs/Lazo-cerrado-vel.abp"><img alt="Programa Lazo Cerrado Velocidad" src="/images/ardublock-icon.png" /><span>Programa Lazo Cerrado Velocidad</span></a>
+        	</div>
+        	<!--Práctica 8 ------------------------------------------------------------------------------------------------>
+        	<div class="tab" id="practice-8">
+        		<h1>Generaci&oacute;n de Trayectorias</h1>
+        		<h2>Pr&aacute;ctica 8</h2>
+        		<p>Esta pr&amp;aacute;ctica se centra en la ense&ntilde;anza del c&aacute;lculo de trayectorias en robots m&oacute;viles.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>SIEBOT</li>
+        			<li>Hojas con trayectorias</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Trayectoria" target="_blank">Trayectoria</a></li>
+        			<li>Velocidad Tangencial</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Posici%C3%B3n" target="_blank">Posici&oacute;n</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Vector" target="_blank">Vector</a></li>
+        			<li>Distancia Recorrida</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Per%C3%ADmetro" target="_blank">Perímetro</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Longitud_de_arco" target="_blank">Longitud de Arco</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Radi%C3%A1n" target="_blank">Radián</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/%C3%81ngulos_suplementarios" target="_blank">&Aacute;ngulos suplementarios</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Teorema_del_seno" target="_blank">Teorema del seno</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es muy recomendable repasar los t&eacute;rminos sugeridos en la secci&oacute;n previa y entender el funcionamiento de un encoder y como calcular la posici&oacute;n a partir de este elemento.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 8 y los programas para ejecutar en el software Ardublock.</p>
+        		<a class="doc" href="/docs/GENERACION-TRAYECTORIAS.docx"><img alt="Documento pr&aacute;ctica 8" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica VIII</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Cuadrado.abp"><img alt="Programa Trayectoria Cuadrada" src="/images/ardublock-icon.png" /><span>Programa Trayectoria Cuadrada</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Triangulo.abp"><img alt="Programa Trayectoria Triangular" src="/images/ardublock-icon.png" /><span>Programa Trayectoria Triangular</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Circulo.abp"><img alt="Programa Trayectoria Circular" src="/images/ardublock-icon.png" /><span>Programa Trayectoria Circular</span></a>
         	</div>
         </div>
         
