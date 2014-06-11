@@ -52,6 +52,7 @@ nav("aside");
 				<li><span>Pr&aacute;ctica 4</span><a href="#practice-4">Motores</a></li>
 				<li><span>Pr&aacute;ctica 5</span><a href="#practice-5">Conceptos de Mov.</a></li>
 				<li><span>Pr&aacute;ctica 6</span><a href="#practice-6">Locomoci&oacute;n</a></li>
+				<li><span>Pr&aacute;ctica 7</span><a href="#practice-7">Control Pos. y Vel.</a></li>
 			</ul>
 		</aside>
 		<div id="content">
@@ -263,6 +264,44 @@ nav("aside");
         		<h3>Documentos</h3>
         		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 6.</p>
         		<a class="doc" href="/docs/LOCOMOCION.docx"><img alt="Documento pr&aacute;ctica 6" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica VI</span></a>
+        	</div>
+        	<!--Práctica 7 ------------------------------------------------------------------------------------------------>
+        	<div class="tab" id="practice-7">
+        		<h1>Control de Posici&oacute;n y Velocidad de un Motor</h1>
+        		<h2>Pr&aacute;ctica 7</h2>
+        		<p>Esta pr&aacute;ctica est&aacute; orientada hac&iacute;a el aprendizaje del control de posici&oacute;n y velocidad de un motor entendiendo los efectos de la realimentaci&oacute;n en un lazo de control.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Tarjeta de desarrollo SIE-2</li>
+        			<li>Encoder </li>
+        			<li>Conectores para tarjeta</li>
+        			<li>Pilas</li>
+        			<li>Llanta y transportador</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li>Sistema Discreto</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Sistema_de_control" target="_blank">Sistema de Control</a></li>
+        			<li>Lazo Cerrado</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Realimentaci%C3%B3n" target="_blank">Realimentaci&oacute;n</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Ciclo_de_trabajo" target="_blank">Ciclo &Uacute;til</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Control_proporcional" target="_blank">Control Proporcional</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Velocidad_angular" target="_blank">Velocidad Angular</a></li>
+        			<li>Posición Angular</li>
+        			<li>Resoluci&oacute;n de un sensor</li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es muy recomendable repasar los t&eacute;rminos sugeridos en la secci&oacute;n previa y entender el principio de funcionamiento de un sistema de control y un sistema discreto, as&iacute; mismo se deben tener claros los conceptos de posici&oacute;n y velocidad de un motor. Es muy importante aprender  sobre el funcionamiento de un encoder, en especial las caracter&iacute;sticas del encoder Pololu 0J3334 que se est&aacute; utilizando.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 7 y los programas para ejecutar en el software Ardublock.</p>
+        		<a class="doc" href="/docs/CONTROL-POSICION-Y-VELOCIDAD.docx"><img alt="Documento pr&aacute;ctica 7" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica VII</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Lazo-abierto.abp"><img alt="Programa Lazo Abierto" src="/images/ardublock-icon.png" /><span>Programa Lazo Abierto</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Lazo-cerrado-pos.abp"><img alt="Programa Lazo Cerrado Posici&oacute;n" src="/images/ardublock-icon.png" /><span>Programa Lazo Cerrado Posici&oacute;n</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Lazo-cerrado-vel.abp"><img alt="Programa Lazo Cerrado Velocidad" src="/images/ardublock-icon.png" /><span>Programa Lazo Cerrado Velocidad</span></a>
         	</div>
         </div>
         
