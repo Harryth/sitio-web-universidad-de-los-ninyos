@@ -60,9 +60,9 @@ nav("aside");
 			<div class="tab">
 				<h1>Ardublock</h1>
 				<p>Ardublock es un programa de computadores que sirve como entorno de desarrollo, permitiendo la programaci&oacute;n de la plataforma rob&oacute;tica SIEBOT. Con este programa podr&aacute;s darle instrucciones al SIEBOT de manera muy sencilla, algo tan simple como arrastrar y soltar un bloque.</p>
-				<p>Ardublock te permitir&aacute; programar al robot con instrucciones como: ir hacía adelante, girar a la izquierda o la derecha, leer la velocidad del SIEBOT, entre otras.</p>
-				<p>En la pestaña de la derecha encontrarás las instrucciones para tener instalado el programa en tu computador y hacerlo funcionar correctamente.</p>
-				<p>A continuación verás una galería de imágenes del programa.</p>
+				<p>Ardublock te permitir&aacute; programar al robot con instrucciones como: ir hac&iacute;a adelante, girar a la izquierda o la derecha, leer la velocidad del SIEBOT, entre otras.</p>
+				<p>En la pesta&ntilde;a de la derecha encontrar&aacute;s las instrucciones para tener instalado el programa en tu computador y hacerlo funcionar correctamente.</p>
+				<p>A continuaci&oacute;n ver&aacute;s una galer&iacute;a de im&aacute;genes del programa.</p>
 				
 				<div class="gallery">
 					<a href="/images/Ardublocks/ardublocks-1.png" rel="prettyPhoto[ardublock]" title="Interfaz Ardublock."><img src="/images/thumbnails/t-ardublocks-1.png" width="120" height="120" alt="Interfaz Ardublock" /></a>
@@ -76,54 +76,18 @@ nav("aside");
 				<h1>Instalaci&oacute;n</h1>
 				<p>Para tener Ardublock instalado y funcionando debes seguir las siguientes instrucciones:</p>
 				<h3>Verificar la Instalaci&oacute;n de Java</h3>
-				<p>Uno de los pasos m&aacute;s importantes es saber si se cuentas con Java instalado en el equipo. Java es una plataforma que permite la ejecuci&oacute;n de muchos programas, as&iacute; que es muy probable que ya est&eacute; instalado en tu equipo. Para verificar que lo tengas instalado has click en el siguiente enlace para <a href="http://www.java.com/es/download/installed.jsp">verificar la instalaci&oacute;n de Java</a>.</p>
-				<p>Si no tienes instalado Java, puedes seguir el siguiente enlace para <a href="http://www.java.com/es/download/">instalar Java</a>.</p>
-				<h3>Instalar el Compilador</h3>
-				<p>El compilador es un programa que nos permite traducir las instrucciones que nosotros demos en Ardublock a unas instrucciones más complejas que el SIEBOT pueda entender. Para instalarlo, sigue estos simples pasos.</p>
-				<p>Lo primero que debes hacer es descargarlo en el siguiente enlace.</p>
-				<a class="doc" href="https://sourcery.mentor.com/GNUToolchain/package12193/public/arm-none-eabi/arm-2013.11-24-arm-none-eabi.exe"><img alt="G++ Lite Edition" src="/images/exe-icon.png" /><span>Sourcery G++ Lite</span></a>
-				<p>Una vez descagado, ejecuta el archivo e inicia el proceso de instalaci&oacute;n.</p>
-				<p>Aparecer&aacute; una ventana de bienvenida como la siguiente:</p>
-				<div class="gallery">
-					<a href="/images/g++/g++2.jpg" rel="prettyPhoto[g++]" title="Bienvenida instalador G++."><img src="/images/thumbnails/t-g++2.jpg" width="349" height="250" alt="Bienvenida instalador G++" /></a>
-				</div>
-				<p>Da click en siguiente, Lee y Acepta los t&eacute;rminos y condiciones de uso (License Agreement).</p>
-				<p>A continuaci&oacute;n apareceuna pantalla con el resumen de la instalaci&oacute;n, da click en siguiente.</p>
-				<p>En la siguiente pantalla (Choose Install Set) elige la opci&oacute;n t&iacute;pica (Typical) y da click en siguiente.</p>
-				<p>Posteriormente elige la ruta de instalaci&oacute;n, puede ser la sugerida por defecto y de nuevo, da click en siguiente.</p>
-				<p>En la siguiente ventana, a la pregunta si se quiere agregar el producto al PATH (Add product to the PATH) elige la opci&oacute;n de modificar para todos los usuarios (Modify PATH for all users).</p>
-				<div class="gallery">
-					<a href="/images/g++/g++7.jpg" rel="prettyPhoto[g++]" title="Modificar PATH para todos los usuarios."><img src="/images/thumbnails/t-g++7.jpg" width="349" height="250" alt="Modificar PATH para todos los usuarios" /></a>
-				</div>
-				<p>En la siguiente pantalla deja la opci&oacute;n por defecto seleccionada y da click en siguiente</p>
-				<p>Finalmente aparecerá una pantalla con el resumen de la instalaci&oacute;n (Pre-Install Summary), da click en instalar (Install).</p>
-				<p>Despu&eacute;s de esto aparecer&aacute;n una serie de pantallas con el proceso de instalaci&oacute;n. Espera un poco hasta que salga la ventana de aviso que se ha completado la instalaci&oacute;n (Install Complete) y da click en el bot&oacute;n hecho (Done).</p>
-				<h3>Herramientas Adicionales</h3>
-				<p>Es necesario instalar de manera adicional un conjunto de herramientas complementarias que nos ayudar&aacute;n en la programaci&oacute;n, para descargar el instalador podemos dar click en el enlace siguiente:</p>
-				<a class="doc" href="https://csud.googlecode.com/files/yagarto-tools-20121018-setup.exe"><img alt="Yagarto Tools" src="/images/exe-icon.png" /><span>YAGARTO Tools</span></a>
-				<p>Despu&eacute;s de descargado se debe ejecutar el instalador con lo que tendremos una pantalla de bienvenida.</p>
-				<div class="gallery">
-					<a href="/images/yagarto/y1.jpg" rel="prettyPhoto[yagarto]" title="Bienvenida Instalador Yagarto Tools."><img src="/images/thumbnails/t-y1.jpg" width="321" height="250" alt="Bienvenida Instalador Yagarto Tools" /></a>
-				</div>
-				<p>Damos click en el bot&oacute;n siguiente (Next) y pasamos a la ventana de t&eacute;rminos de licencia (License Agreement), los leemos y aceptamos, luego damos click en siguiente (Next).</p>
-				<p>A continuaci&oacute;n aparecer&aacute; una pantalla para elegir los compnentes deseados (Choose Components) donde debemos dejar selecionadas las dos opciones y dar click en siguiente (Next).</p>
-				<div class="gallery">
-					<a href="/images/yagarto/y3.jpg" rel="prettyPhoto[yagarto]" title="Elegir los componentes de Yagarto."><img src="/images/thumbnails/t-y3.jpg" width="321" height="250" alt="Elegir los componentes de Yagarto" /></a>
-				</div>
-				<p>Luego elegimos la ruta de instalaci&oacute;n (Choose Instal Location) que puede ser cualquiera, y damos clock en siguiente.</p>
-				<p>En la ventana siguiente damos click en el bot&oacute;n instalar (Install) para iniciar el proceso de instalaci&oacute;n.</p>
-				<p>Despu&eacute;s de finalizado este proceso (Instalation Complete) damos click en el bot&oacute;n siguiente para luego dar click en el bot&oacute;n finalizar (Finish).</p>
-				<div class="gallery">
-					<a href="/images/yagarto/y7.jpg" rel="prettyPhoto[yagarto]" title="Final Instalaci&oacute;n Yagarto."><img src="/images/thumbnails/t-y7.jpg" width="321" height="250" alt="Final Instalaci&oacute;n Yagarto" /></a>
-				</div>
+				<p>Uno de los pasos m&aacute;s importantes es saber si se cuentas con Java instalado en el equipo. Java es una plataforma que permite la ejecuci&oacute;n de muchos programas, as&iacute; que es muy probable que ya est&eacute; instalado en tu equipo. Para verificar que lo tengas instalado has click en el siguiente enlace para <a href="http://www.java.com/es/download/installed.jsp" target="_blank">verificar la instalaci&oacute;n de Java</a>.</p>
+				<p>Si no tienes instalado Java, puedes seguir el siguiente enlace para <a href="http://www.java.com/es/download/" target="_blank">instalar Java</a>.</p>
+				
 				<h2>Descarga Ardublock</h2>
-				<p>Ya finalmente solo debes descargar Ardublock en el siguiente enlace y descoprimir su contenido en la carpeta que prefieras.</p>
-				<a class="doc" href="https://dl.dropboxusercontent.com/u/5004468/UNNinnos.zip"><img alt="Documento pr&aacute;ctica 6" src="/images/tar-icon.png" /><span>Ardublock</span></a>
+				<p>Una vez se hayan realizado los pasos previos debes descargar Ardublock en el siguiente enlace, descoprimir su contenido en la carpeta que prefieras y dar click en el archivo <em>ardublock-all.jar</em> para ejecutar el programa.</p>
+				<a class="doc" href="https://dl.dropboxusercontent.com/u/5004468/Ardublock.zip"><img alt="Documento pr&aacute;ctica 6" src="/images/tar-icon.png" /><span>Ardublock</span></a>
 			</div>
+			<!-- Como Usarlo------------------------------------------------------------------------------------------->
 			<div class="tab" id="usage">
 				<h1>Instrucciones de Uso</h1>
 				<p>Usar Ardublock es muy sencillo y aqu&iacute; te ense&ntilde;aremos como:</p>
-				<p>Primero abre la carpeta donde descomprimiste el programa, normalmente se llama <em>UNNinnos</em> y a continuaci&oacute;n da doble click en el archivo llamdao <em>ardublock-all</em>.</p>
+				<p>Primero abre la carpeta donde descomprimiste el programa, normalmente se llama <em>Ardublock</em> y a continuaci&oacute;n da doble click en el archivo llamdao <em>ardublock-all</em>.</p>
 				<div class="gallery">
 					<a href="/images/Ardublocks/folder.png" rel="prettyPhoto[usage]" title="Ejecutable Ardublock."><img src="/images/thumbnails/t-folder.png" width="339" height="170" alt="Ejecutable Ardublock" /></a>
 				</div>
@@ -153,7 +117,7 @@ nav("aside");
 				<div class="gallery">
 					<a href="/images/Ardublocks/ardublock-usage-5.png" rel="prettyPhoto[usage]" title="Condici&oacute;n Verdadera."><img src="/images/thumbnails/t-ardublock-usage-5.png" width="361" height="250" alt="Condici&oacute;n Verdadera" /></a>
 				</div>
-				<p>Para finalizar, haremos la programaci&oacute;n para el caso en que no se cumpla la condici&oacute;n. Arrastraremos un nuevo bloque <em>set digital pin</em> y elegiremos nuevamente el pin n&uacute;mero 34, pero esta vez el bloque púpura se cambiará a estado <em>LOW</em>, para hacer esto, debemos pasar el puntero por encima del bloque y dar click sobre el peque&ntilde;o tri&aacute;ngulo que se muestra, luego seleccionamos en la lista desplegada. El programa debe quedar como en la imagen.</p>
+				<p>Para finalizar, haremos la programaci&oacute;n para el caso en que no se cumpla la condici&oacute;n. Arrastraremos un nuevo bloque <em>set digital pin</em> y elegiremos nuevamente el pin n&uacute;mero 34, pero esta vez el bloque púrpura se cambiará a estado <em>LOW</em>, para hacer esto, debemos pasar el puntero por encima del bloque y dar click sobre el peque&ntilde;o tri&aacute;ngulo que se muestra, luego seleccionamos en la lista desplegada. El programa debe quedar como en la imagen.</p>
 				<div class="gallery">
 					<a href="/images/Ardublocks/ardublock-usage-6.png" rel="prettyPhoto[usage]" title="Programa Finalizado."><img src="/images/thumbnails/t-ardublock-usage-6.png" width="361" height="250" alt="Programa Finalizado" /></a>
 				</div>
