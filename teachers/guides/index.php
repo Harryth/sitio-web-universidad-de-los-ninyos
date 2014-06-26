@@ -52,6 +52,9 @@ nav("aside");
 				<li><span>Pr&aacute;ctica 4</span><a href="#practice-4">Motores</a></li>
 				<li><span>Pr&aacute;ctica 5</span><a href="#practice-5">Conceptos de Mov.</a></li>
 				<li><span>Pr&aacute;ctica 6</span><a href="#practice-6">Locomoci&oacute;n</a></li>
+				<li><span>Pr&aacute;ctica 7</span><a href="#practice-7">Control Pos. y Vel.</a></li>
+				<li><span>Pr&aacute;ctica 8</span><a href="#practice-8">Trayectorias</a></li>
+				<li><span>Pr&aacute;ctica 9</span><a href="#practice-9">Engranes</a></li>
 			</ul>
 		</aside>
 		<div id="content">
@@ -263,6 +266,107 @@ nav("aside");
         		<h3>Documentos</h3>
         		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 6.</p>
         		<a class="doc" href="/docs/LOCOMOCION.docx"><img alt="Documento pr&aacute;ctica 6" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica VI</span></a>
+        	</div>
+        	<!--Práctica 7 ------------------------------------------------------------------------------------------------>
+        	<div class="tab" id="practice-7">
+        		<h1>Control de Posici&oacute;n y Velocidad de un Motor</h1>
+        		<h2>Pr&aacute;ctica 7</h2>
+        		<p>Esta pr&aacute;ctica est&aacute; orientada hac&iacute;a el aprendizaje del control de posici&oacute;n y velocidad de un motor entendiendo los efectos de la realimentaci&oacute;n en un lazo de control.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Tarjeta de desarrollo SIE-2</li>
+        			<li>Encoder </li>
+        			<li>Conectores para tarjeta</li>
+        			<li>Pilas</li>
+        			<li>Llanta y transportador</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li>Sistema Discreto</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Sistema_de_control" target="_blank">Sistema de Control</a></li>
+        			<li>Lazo Cerrado</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Realimentaci%C3%B3n" target="_blank">Realimentaci&oacute;n</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Ciclo_de_trabajo" target="_blank">Ciclo &Uacute;til</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Control_proporcional" target="_blank">Control Proporcional</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Velocidad_angular" target="_blank">Velocidad Angular</a></li>
+        			<li>Posición Angular</li>
+        			<li>Resoluci&oacute;n de un sensor</li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es muy recomendable repasar los t&eacute;rminos sugeridos en la secci&oacute;n previa y entender el principio de funcionamiento de un sistema de control y un sistema discreto, as&iacute; mismo se deben tener claros los conceptos de posici&oacute;n y velocidad de un motor. Es muy importante aprender  sobre el funcionamiento de un encoder, en especial las caracter&iacute;sticas del encoder Pololu 0J3334 que se est&aacute; utilizando.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 7 y los programas para ejecutar en el software Ardublock.</p>
+        		<a class="doc" href="/docs/CONTROL-POSICION-Y-VELOCIDAD.docx"><img alt="Documento pr&aacute;ctica 7" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica VII</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Lazo-abierto.abp"><img alt="Programa Lazo Abierto" src="/images/ardublock-icon.png" /><span>Programa Lazo Abierto</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Lazo-cerrado-pos.abp"><img alt="Programa Lazo Cerrado Posici&oacute;n" src="/images/ardublock-icon.png" /><span>Programa Lazo Cerrado Posici&oacute;n</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Lazo-cerrado-vel.abp"><img alt="Programa Lazo Cerrado Velocidad" src="/images/ardublock-icon.png" /><span>Programa Lazo Cerrado Velocidad</span></a>
+        	</div>
+        	<!--Práctica 8 ------------------------------------------------------------------------------------------------>
+        	<div class="tab" id="practice-8">
+        		<h1>Generaci&oacute;n de Trayectorias</h1>
+        		<h2>Pr&aacute;ctica 8</h2>
+        		<p>Esta pr&amp;aacute;ctica se centra en la ense&ntilde;anza del c&aacute;lculo de trayectorias en robots m&oacute;viles.</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>SIEBOT</li>
+        			<li>Hojas con trayectorias</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Trayectoria" target="_blank">Trayectoria</a></li>
+        			<li>Velocidad Tangencial</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Posici%C3%B3n" target="_blank">Posici&oacute;n</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Vector" target="_blank">Vector</a></li>
+        			<li>Distancia Recorrida</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Per%C3%ADmetro" target="_blank">Perímetro</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Longitud_de_arco" target="_blank">Longitud de Arco</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Radi%C3%A1n" target="_blank">Radián</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/%C3%81ngulos_suplementarios" target="_blank">&Aacute;ngulos suplementarios</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Teorema_del_seno" target="_blank">Teorema del seno</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es muy recomendable repasar los t&eacute;rminos sugeridos en la secci&oacute;n previa y entender el funcionamiento de un encoder y como calcular la posici&oacute;n a partir de este elemento.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 8 y los programas para ejecutar en el software Ardublock.</p>
+        		<a class="doc" href="/docs/GENERACION-TRAYECTORIAS.docx"><img alt="Documento pr&aacute;ctica 8" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica VIII</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Cuadrado.abp"><img alt="Programa Trayectoria Cuadrada" src="/images/ardublock-icon.png" /><span>Programa Trayectoria Cuadrada</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Triangulo.abp"><img alt="Programa Trayectoria Triangular" src="/images/ardublock-icon.png" /><span>Programa Trayectoria Triangular</span></a>
+        		<br />
+        		<a class="doc" href="/docs/Circulo.abp"><img alt="Programa Trayectoria Circular" src="/images/ardublock-icon.png" /><span>Programa Trayectoria Circular</span></a>
+        	</div>
+        	<!--Práctica 9 ------------------------------------------------------------------------------------------------>
+        	<div class="tab" id="practice-9">
+        		<h1>Engranes</h1>
+        		<h2>Pr&aacute;ctica 9</h2>
+        		<p>Esta pr&aacute;ctica enseña el uso de los engranes y sus características más importantes haciendo énfasis en el cálculo de relaciones de velocidad</p>
+        		<h3>Materiales</h3>
+        		<ul>
+        			<li>Aplicación engranes</li>
+        		</ul>
+        		<h3>Diccionario</h3>
+        		<p>En esta guía se encuentran conceptos que pueden ser nuevos, a continuación encontrarás una lista con algunas de sus definiciones.</p>
+        		<ul>
+        			<li><a href="http://es.wikipedia.org/wiki/Engranaje" target="_blank">Engrane</a></li>
+        			<li>Transmisión de potencia</li>
+        			<li><a href="http://es.wikipedia.org/wiki/Reductores_de_velocidad" target="_blank">Reductor de Velocidad</a></li>
+        			<li><a href="http://es.wikipedia.org/wiki/Relaci%C3%B3n_de_transmisi%C3%B3n" target="_blank">Relaci&oacute;n de transmisi&oacute;n</a></li>
+        		</ul>
+        		<h3>Informaci&oacute;n Adicional</h3>
+        		<p>Es muy recomendable repasar los t&eacute;rminos sugeridos en la secci&oacute;n previa y tambi&eacute;n revisar los diferentes tipos y configuraciones de engranes buscando im&aacute;genes y videos que ayuden a visualizar su construcci&oacute;n y funcionamiento.</p>
+        		<h3>Documentos</h3>
+        		<p>A continuaci&oacute;n encontrar&aacute;s el documento con las instrucciones de pr&aacute;ctica 9 y enlaces a los recursos principales para el desarrollo de la pr&aacute;ctica.</p>
+        		<a class="doc" href="/docs/ENGRANES.docx"><img alt="Documento pr&aacute;ctica 9" src="/images/docx-icon.png" /><span>Documento Pr&aacute;ctica IX</span></a>
+        		<br />
+        		<a class="doc" href="http://www.fisme.science.uu.nl/toepassingen/00725/" target="_blank"><img alt="Aplicaci&oacute;n engranes" src="/images/http-icon.png" /><span>Aplicaci&oacute;n Engranes</span></a>
+        		<br />
+        		<a class="doc" href="http://youtu.be/4augy82FQBk" target="_blank"><img alt="Video tutorial" src="/images/http-icon.png" /><span>Video Tutorial</span></a>
         	</div>
         </div>
         
