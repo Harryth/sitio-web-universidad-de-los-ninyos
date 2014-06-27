@@ -39,11 +39,11 @@ function nav ($id) {
                 <ul class="submenu">
                     <li><a href="/developers/description/">Descripci&#243;n</a>
                         <ul>
-                            <li><a href="#">Software</a></li>
-                            <li><a href="#">Hardware</a></li>
+                            <li><a href="/developers/description/software/">Software</a></li>
+                            <li><a href="/developers/description/hardware/">Hardware</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Documentación</a></li>
+                    <!--<li><a href="#">Documentación</a></li>-->
                 </ul>
             </li>
             <li class="about"><a href="/about/">Acerca de</a></li>

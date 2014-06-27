@@ -70,7 +70,7 @@ nav("aside");
 			</div>
 			<div class="tab" id="building">
 				<h1>Construyendo el SIEBOT</h1>
-				<p>La construcción del SIEBOT es muy sencilla, y se requieren muy pocos pasos, inicialmente se debe contar con todas las piezas, si se desea realizar el corte de las piezas, debe dirigirse a la sección de <a href="#">desarrollo</a>. El SIEBOt consta de dos modelos diferentes con unas peque&ntilde;as variantes, uno modelo convencional con una tarjeta de sensores y un modelo dibujante, con espacio para un l&aacute;piz que permita hacer dibujos de las trayectorias, el modelo con m&aacute;s partes es el segundo y su conjunto de piezas se puede ver en la siguientes figuras.</p>
+				<p>La construcción del SIEBOT es muy sencilla, y se requieren muy pocos pasos, inicialmente se debe contar con todas las piezas, si se desea realizar el corte de las piezas, debe dirigirse a la sección de <a href="/developers/description/hardware/">desarrollo</a>. El SIEBOt consta de dos modelos diferentes con unas peque&ntilde;as variantes, uno modelo convencional con una tarjeta de sensores y un modelo dibujante, con espacio para un l&aacute;piz que permita hacer dibujos de las trayectorias, el modelo con m&aacute;s partes es el segundo y su conjunto de piezas se puede ver en la siguientes figuras.</p>
 				<div class="gallery">
 					<a href="/images/SIEBOT/pieces-1.jpg" rel="prettyPhoto[build]" title="Piezas Peque&ntilde;as SIEBOT."><img src="/images/thumbnails/t-pieces-1.jpg" width="250" height="188" alt="Piezas Peque&ntilde;as SIEBOT" /></a>
 					<a href="/images/SIEBOT/pieces-2.jpg" rel="prettyPhoto[build]" title="Piezas Grandes SIEBOT."><img src="/images/thumbnails/t-pieces-2.jpg" width="250" height="188" alt="Piezas Grandes SIEBOT" /></a>
