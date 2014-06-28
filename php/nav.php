@@ -32,7 +32,7 @@ function nav ($id) {
                         </ul>
                     </li>
                     <li><a href="/teachers/guides/">Gu&#237;as</a></li>
-                    <li><a href="#">Recursos</a></li>
+                    <!--<li><a href="#">Recursos</a></li>-->
                 </ul>
             </li>
             <li class="menu developers"><a href="/developers/">Desarrolladores</a>
