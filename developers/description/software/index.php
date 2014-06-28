@@ -41,7 +41,7 @@ require_once '../../../php/header.php';
 ?>
 
 		<div id="breadcrumb">
-			<a href="/developers/">Estudiantes</a> &gt; <a href="/developers/description/">Descripci&oacute;n</a> &gt;  <a href="./">Software</a>
+			<a href="/developers/">Desarrolladores</a> &gt; <a href="/developers/description/">Descripci&oacute;n</a> &gt;  <a href="./">Software</a>
 		</div>
 
 <?php
@@ -57,6 +57,7 @@ nav("aside");
 			</ul>
 		</aside>-->
 		<div id="content">
+			<h1>Software</h1>
 			<p><a href="http://blog.ardublock.com/" target="_blank" hreflang="en">Ardublock</a> es un software de c&oacute;digo abierto desarrollado con el fin de ofrecer una alternativa a la programaci&oacute;n de la tarjeta de desarrollo Arduino. Ardublock se basa en el proyecto del MIT <a href="http://education.mit.edu/openblocks" target="_blank" hreflang="en">OpenBlocks</a> que es una librer&iacute;a en Java de c&oacute;digo abierto usada para crear interfaces de programaci&oacute;n basadas en bloques. La informaci&oacute;n sobre estos proyectos puede encontrarse en sus respectivas p&aacute;ginas haciendo seguimiento de lo v&iacute;nculos anteriores.</p>
 			<p>El proyecto la Universidad de los Ni&ntilde;os hace uso de este software, creando una versi&oacute;n modificada de Ardublock para programar microcontroladores de la familia STM32 F4 con arquitectura Cortex M4 de 32 bits. Para hacer este cambio en la familia del microprocesador el software hace uso de una versi&oacute;n modificada de la librer&iacute;a de c&oacute;digo abierto <a href="http://leaflabs.com/docs/libmaple.html" target="_blank" hreflang="en">libmaple</a>, cuya finalidad es hacer uso de las librer&iacute;as usadas por el proyecto Arduino para la programaci&oacute;n de microprocesadores AVR en microprocesadores de la familia STM32 de la l&iacute;nea ARM Cortex M3.</p>
 			<p>La bifurcaci&oacute;n de este software desarrollada para el proyecto La Universidad de los Ni&ntilde;os cuenta con bloques adicionales creados para facilitar el trabajo con plataformas de rob&oacute;tica m&oacute;vil que permiten mejorar la ense&ntilde;anza en ciencia</p>
