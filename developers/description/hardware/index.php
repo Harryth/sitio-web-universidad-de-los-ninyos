@@ -41,7 +41,7 @@ require_once '../../../php/header.php';
 ?>
 
 		<div id="breadcrumb">
-			<a href="/developers/">Estudiantes</a> &gt; <a href="/developers/description/">Descripci&oacute;n</a> &gt;  <a href="./">Hardware</a>
+			<a href="/developers/">Desarrolladores</a> &gt; <a href="/developers/description/">Descripci&oacute;n</a> &gt;  <a href="./">Hardware</a>
 		</div>
 
 <?php
