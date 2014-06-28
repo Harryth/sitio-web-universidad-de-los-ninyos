@@ -209,6 +209,11 @@ nav#aside .developers li li a {
 	color: #fff;
 }
 
+#tabs.developers a {
+	background: #444;
+	color: #fff;
+}
+
 #tabs li {
 	list-style: none;
 }
