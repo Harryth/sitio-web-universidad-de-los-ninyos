@@ -1,3 +1,4 @@
+/* Esto permite que el submenú de estudiantes del menú lateral permanesca desplegado*/ 
 nav#aside li.students .submenu {
 	max-height: 170px;
 }

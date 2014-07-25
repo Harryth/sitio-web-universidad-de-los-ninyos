@@ -1,4 +1,5 @@
 <?php
+//Imprime toda la información del pie de página
     echo <<<_TEXT
     <footer>
     	<p><a href="http://unal.edu.co/" target="_blanck">Universidad Nacional de Colombia</a></p>

@@ -19,15 +19,16 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		
-		<link rel="stylesheet" type="text/css" href="./css/sections-layout.css" />
-        <link rel="stylesheet" type="text/css" href="./css/sections-style.css" />
-        <link rel="stylesheet" type="text/css" href="./css/nav-layout.css" />
-        <link rel="stylesheet" type="text/css" href="./css/nav-style.css" />
+		<!--Hojas de estilo-->		
+		<link rel="stylesheet" type="text/css" href="./css/sections-layout.css" /><!--Maqueta secciones-->
+        <link rel="stylesheet" type="text/css" href="./css/sections-style.css" /><!--Estilo secciones-->
+        <link rel="stylesheet" type="text/css" href="./css/nav-layout.css" /><!--Maqueta menú navegación-->
+        <link rel="stylesheet" type="text/css" href="./css/nav-style.css" /><!--Estilo menú navegación-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script src="./js/nav-app.js"></script>
-        <script src="./js/sections-app.js"></script>
+        <script src="./js/sections-app.js"></script><!--Javascript secciones-->
         
         <style>
         	footer {
@@ -38,15 +39,18 @@
 
 	<body>
 <?php
+// Código que incluye el encabezado
 require_once './php/header.php';
 ?>
 		<div id="breadcrumb"><a href="/Licencia">Licencia</a></div>
 		
 <?php
+// Código que incluye el menú de navegación
 require_once './php/nav.php';
-nav("top");
-nav("aside");
+nav("top"); // Menú superior
+nav("aside"); //Menú lateral
 ?>
+		<!--Capa con el contenido principal-->
 		<div id="content">
         	<h1>Licencia</h1>
         	<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</p>
@@ -57,6 +61,7 @@ nav("aside");
         	<p>Los ic&oacute;nos de tipo de archivo est&aacute;n bajo licencia Creative Commons Atribución – No comercial – Compartir igual 4.0 , y fueron modificados del tema original Flattr desarrollado por Uri Herrera, disponible en <a href="http://nitrux.in/" target="_blank">nitrux.in</a>.</p>
         </div>
 <?php
+// Código que incluye el pie de página
 require_once './php/footer.php';
 ?>
 	</body>

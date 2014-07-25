@@ -1,3 +1,4 @@
+/*Hoja de estilos con la estética de las páginas de contenido interno*/
 html {
 	font-family: 'Open Sans', sans-serif;
 	background-image: url("../images/backgroundContent.png");
@@ -5,7 +6,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/*Colores principales de cada sección*/
 html.students {
     background-color: #0073ff;
 }
@@ -29,7 +30,7 @@ html.about {
 html.nt {
 	background-color: #ababab;
 }
-
+/*Estética enlaces migas de pan*/
 #breadcrumb {
     background: #ddd;
     border-radius: 7px;
@@ -50,7 +51,7 @@ html.nt {
 #breadcrumb a:first-child {
     font-weight: bold;
 }
-
+/*Estética menú de navegación lateral*/
 nav#aside {
     background: #fff;
     transition-duration: 2s;
@@ -172,7 +173,7 @@ nav#aside .teachers li li a {
 nav#aside .developers li li a {
     border-left:  4px double #666;
 }
-
+/*Estética contenido*/
 #content {
     background:#fff;
     border-top-right-radius: 70px;
@@ -193,7 +194,7 @@ nav#aside .developers li li a {
 	background: #fff;
 	border-top-right-radius: 70px;
 }
-
+/*Estética de los enlaces a la pestañas*/
 #tabs a {
 	transition-duration: 0.5s;
 	text-decoration: none;
@@ -246,7 +247,7 @@ nav#aside .developers li li a {
 a.doc{
 	color: #333;
 }
-
+/*Estética botón de  ir a inici*/
 #top-btn {
 	background: #000;
     border-radius: 35px;
@@ -270,7 +271,7 @@ a.doc{
     border-top: solid 4px #FFF;
     border-left: solid 4px #FFF;
 }
-
+/*Estética pie de pantalla*/
 footer {
 	background: rgba(255,255,255,0.6);
 }

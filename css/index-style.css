@@ -1,9 +1,11 @@
+/*Hoja de estilo con la estética de la página de inicio*/
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:600,700);
 
 html {
     font-family: 'Open Sans', 'sans-serif';
 }
 
+/*Colores y decoración enlaces primera página*/
 #links a {
     text-decoration: none;
     color: #fff;
@@ -12,7 +14,7 @@ html {
     border-top-right-radius: 25px;
     box-shadow: 0px 0px 15px;
 }
-
+/*Color y decoración botones navegación*/
 .slide-btn {
     background: #000;
     border-radius: 150px;
@@ -23,7 +25,7 @@ html {
 .slide-btn:hover {
     opacity: .6;
 }
-
+/*Decoración enlaces botones de navegación*/
 .icon {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -43,7 +45,7 @@ html {
     border-top: solid 2px #FFF;
     border-left: solid 2px #FFF;
 }
-
+/*Estética tipo de letra del contenido*/
 .content {
     font-family: 'Josefin Sans', 'sans-serif';
     text-align: right;
@@ -64,11 +66,8 @@ html {
     font-size: 150%;
     text-align: right;
 }
-
+/*Alineamiento especial para la pestaña profesores*/
 .teachers .content {
     color: #fff;
-}
-
-.teachers .content {
     text-align: left;
 }

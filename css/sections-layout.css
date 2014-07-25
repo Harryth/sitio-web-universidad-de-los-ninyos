@@ -1,8 +1,9 @@
+/*Hoja de estilos con la maquetación de las páginas internas*/
 body, html {
     padding: 0;
     margin: 0;
 }
-
+/*Tamaño y posición encabezado y logos contenidos*/
 header {
     width: 960px;
     height: 100px;
@@ -23,13 +24,13 @@ header {
     height: 100px;
     float: right;
 }
-
+/*Tamaño y posición enlaces de miga de pan*/
 #breadcrumb {
     position: absolute;
     top: 200px;
     left: 20%;
 }
-
+/*Tamaño y posición menú lateral*/
 nav#aside {
     display: block;
     width: 200px;
@@ -56,7 +57,7 @@ nav#aside a {
     padding: 3px;
     margin: 2px 0;
 }
-
+/*Tamaño y posición capa contenido principal y pestañas*/
 #content {
     width:60%;
     position:relative;
@@ -74,7 +75,7 @@ nav#aside a {
 	overflow: hidden;
 	padding: 0;
 }
-
+/*Muestra la primer pestaña*/
 #content .tab:first-child {
 	height: auto;
 	padding: 15px;
@@ -88,7 +89,7 @@ nav#aside a {
 .gallery a {
 	margin: 7px;
 }
-
+/*Tamaño y posición enlaces a las pestañas*/
 #tabs {
 	position: absolute;
 	left: 73%;
@@ -138,14 +139,14 @@ nav#aside a {
 	padding: 20px;
 	z-index: 999;
 }
-
+/*Tamaño y posición botón de ir a inicio*/
 #top-btn a {
 	display: block;
     position: relative;
     width: 20px;
     height: 20px;
 }
-
+/*Tamaño y posición pie de página*/
 footer {
 	width: 100%;
 	position: absolute;

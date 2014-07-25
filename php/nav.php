@@ -1,5 +1,5 @@
 <?php 
-
+//Imprime el menú de navegación con el id proporcionado
 function nav ($id) {
     echo <<<_TEXT
     <nav id="$id">

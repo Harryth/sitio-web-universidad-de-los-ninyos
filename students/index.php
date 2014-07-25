@@ -17,10 +17,15 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+		<!--Hoja de estilos maqueta secciones internas-->
         <link rel="stylesheet" type="text/css" href="../css/sections-layout.css" />
+        <!--Hoja de estilos estética secciones internas-->
         <link rel="stylesheet" type="text/css" href="../css/sections-style.css" />
+        <!--Hoja de estilos maqueta menú navegación-->
         <link rel="stylesheet" type="text/css" href="../css/nav-layout.css" />
+        <!--Hoja de estilos maqueta menú navegación-->
         <link rel="stylesheet" type="text/css" href="../css/nav-style.css" />
+        <!--Hoja de estilos propiedades sección estudiantes-->
         <link rel="stylesheet" type="text/css" href="./css/students.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
@@ -33,17 +38,19 @@
     <body>
 
 <?php
+//Incluye el encabezado
 require_once '../php/header.php';
 ?>
 
-        <div id="breadcrumb"><a href="./">Estudiantes</a></div>
+        <div id="breadcrumb"><a href="./">Estudiantes</a></div> <!--Enlaces de miga de pan-->
 
 <?php
+//Incluye menus de navegación
 require_once '../php/nav.php';
-nav("top");
-nav("aside");
+nav("top");//Menú superiro
+nav("aside");//Menú lateral
 ?>
-
+		<!--Capa con el contenido de la página-->
         <div id="content">
         	<h1>La Universidad de los Ni&ntilde;os</h1>
         	<p>En este portal podr&aacute;s encontrar toda la informaci&oacute;n, recursos, pr&aacute;cticas, tutoriales y v&iacute;nculos a otras p&aacute;ginas que ser&aacute;n importantes en el desarrollo de las pr&aacute;cticas y proyectos que tenemos para ti.</p>
@@ -51,8 +58,10 @@ nav("aside");
         	<p>En la p&aacute;gina <a href="./activities/">Actividades</a> están todas las prácticas que desarrollaremos durantel el curso, información importante a tener en cuenta, la lista de materiales y los documentos descargables.</p>
         </div>
         
+        <!--BOtón para ir al inicio de la página-->
         <div id="top-btn"><a href="#"></a></div>
 <?php
+//Incluye pie de página
 require_once '../php/footer.php';
 ?>
 

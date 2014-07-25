@@ -1,3 +1,5 @@
+/*Hoja de estilos con la maquetación del menú de navegación*/
+/*Ubicación y tamaño menú superior*/
 nav#top {
     position: fixed;
     top: -60px;
